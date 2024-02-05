@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompoundInterestQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/CompoundInterestQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">A man deposits 10,000 in a saving account an interest rate of 4% per annum. How much money will be
+                        have after 3 years if the interest is compounded annually</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.8542</li>
+                    <li class="opt">Rs.11248.64</li>
+                    <li class="opt">Rs.5545</li>
+                    <li class="opt">Rs.4343</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>10,000+4% interest=10400….1st year <br>
+                        10,400+4% interest=10816….2nd year <br>
+                        10,816+4% interest=11248.64….3rd year <br>
+                        Therefore, A man will have Rs.11248.64 after 3 years <br>
+                        OR…..Using formula <br>
+                        A=P[1+(R/100)]<sup>n</sup> <br>
+                        A=10000[1+(4/100)]<sup>3</sup> <br>
+                        A=Rs.11248.64</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">The compound interest on Rs.30,000 at 7% per annum is Rs.4347. Calculate The period in years</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3 Years</li>
+                    <li class="opt">4 Years</li>
+                    <li class="opt">2 Years</li>
+                    <li class="opt">4 Years</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>1st  year compound interest amount at 7% rate of interest with principal 30,000 is equal to 2100 <br>
+                    2nd year compound interest amount=2247 <br>
+                    So compound interest amount in two years=2100+2247=4347 <br>
+                    Therefore,period is 2 years</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">What is the difference between the compound interests on Rs. 5000 for 1 & 1/2  years at 4% per annum compounded yearly and half-yearly?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.8.2</li>
+                    <li class="opt">Rs.2.04</li>
+                    <li class="opt">Rs.4.5</li>
+                    <li class="opt">Rs.4.3</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>C.I. when interest compounded yearly=[5000x(1+4/100)(1+1/2x4/100)]= Rs.5304 <br>
+                        C.I. when interest is compounded half-yearly=rs.5000(1+2/100)<sup>3</sup>= Rs.5306.04 <br>
+                        Difference = Rs.(5306.04-5304) = Rs.2.04</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Find the compound interest on Rs. 16,000 at 20% per annum for 9 months, compounded quarterly</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.8742</li>
+                    <li class="opt">Rs.1124</li>
+                    <li class="opt">Rs.5545</li>
+                    <li class="opt">Rs.2525</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>Principal = Rs.16000; Time = 9 months =3 quarters; <br>
+                    Rate = 20% per annum = 5% per quarter <br>
+                    Amount =[16000 x (1+(5/100))<sup>3</sup>] = Rs.18522 <br>
+                     CI = Rs. (18522 - 16000) = Rs. 2522
+                    </p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">If the simple interest on a sum of money at 5% per annum for 3 years is Rs. 1200, find the compound interest on the same sum for the same period at the same rate</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.2542</li>
+                    <li class="opt">Rs.1128</li>
+                    <li class="opt">Rs.1261</li>
+                    <li class="opt">Rs.4333</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>Clearly, Rate = 5% p.a., Time = 3 years, S.I.= Rs. 1200 <br>
+                    So principal=RS [100x1200]/3x5=Rs. 8000 <br>
+                    Amount = Rs. 8000 x [1 +5/100]<sup>3</sup> - = Rs. 9261 <br>
+                    .. C.I. = Rs. (9261 - 8000) = Rs. 1261</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>

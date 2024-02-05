@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PatternMatching</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 480px;
+            height: 400px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        p{
+            margin-left: 5px;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/AnalogyNV.html"><div class="box">Analogy</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Classification.html"><div class="box">Classification</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CountingOfFigures.html"><div class="box">Counting of Figures</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CubesDice.html"><div class="box">Cubes and Dice</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/DotSituation.html"><div class="box">Dot Situation</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MatriXfigure.html"><div class="box">Matrix Figure</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MirrorImages.html"><div class="box">Mirror Images & Reflection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/RuleDetection.html"><div class="box">Rule Detection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PaperFolding.html"><div class="box">PaperFolding</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="box">Series</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PatternMatching.html"><div class="box">Pattern Matching</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Pattern Matching</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>In this problem a figure is given which contain set of figure or matrix containing and that followed some pattern some pattern or sequence in which a quarter is left blank. Side by side another four pattern or sequence are given and choose one from that fits into the blank space</p>
+                       <p>Sample Example:Choose the alternative which is closely resembles the Missing Pattern of the given figure</p>
+                       <img src="./PatternMatConcept.png" alt="">
+                       <p>Answer :Correct Option is B</p>
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./pattern_matching.jpg" alt="" width="540px" height="516px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+.
+
+.
+figure:patternMatConcept
+
+1) Identify the figure that completes the pattern.
+figure is available
+    
+A1
+B2
+C3
+D4
+Answer: Option c
+Explanation:figure is available
+ 
+
+Q. 2.
+Identify the figure that completes the pattern.
+figure is available
+
+ 
+
+A1
+B2
+C3
+D4
+Answer: Option D
+Explanation:figure is available
+ 
+
+Q. 3.
+Identify the figure that completes the pattern.
+figure is available
+ 
+ 
+A1
+B2
+C3
+D4
+Answer: Option D
+Explanation:figure is available
+ 
+
+Q. 4
+Identify the figure that completes the pattern.
+figure is available
+   
+ 
+A1
+B2
+C3
+D4
+Answer: Option C
+Explanation:figure is available
+ 
+
+Q.5) 
+Identify the figure that completes the pattern.
+figure is available
+
+A1
+B2
+C3
+D4
+Answer: Option A
+Explanation:figure is available
+ 
+
+Q.6)
+Identify the figure that completes the pattern.
+figure is available
+    
+ 
+A1
+B2
+C3
+D4
+Answer: Option B
+Explanation:figure is available
+ 
+
+Q.7 Following question has four alternatives, among which one completes the figures.
+figure is available
+
+ 
+1.	 
+A.	Option (a) in Answer Figure.
+
+
+ 
+b.	Option (b) in Answer Figure.
+
+
+ 
+c.	Option (c) in Answer Figure.
+
+
+ 
+d.	Option (d) in Answer Figure.
+
+
+Correct Option: A
+Right Side figure contains the complete triangle with double across. So the (a) option in given figure will complete the figures.
+
+
+
+
+
+Q.8)
+Identify the figure that completes the pattern.
+figure is available
+   
+A1
+B2
+C3
+D4
+Answer: Option C
+Explanation:
+figure is available
+ 
+
+Q.9) 45.
+Identify the figure that completes the pattern.
+figure is available
+
+1
+2
+3
+4
+Answer: Option C
+Explanation:
+figure is available
+
+10) Identify the figure that completes the pattern.
+
+figure is available
+ 
+1
+2
+3
+4
+Answer: Option A
+Explanation:
+figure is available
+ 

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleMathsQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleMathsQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Sum of multiples of 7 between (21 and 49) divide by Biggest common factor of 25 and 30 is equal to</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">30</li>
+                    <li class="opt">21</li>
+                    <li class="opt">27</li>
+                    <li class="opt">42</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>consider A=Sum of multiples of 7 between 21 & 49 <br>
+                        i.e. 28+35+42=105 <br>
+                        now, consider B=biggest common factor of 25 and 30 is 5 <br>
+                        so, A/B=105/5=21</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Evaluate: 5 × (2 × 34) ÷ 6 + 7 – 8</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">322</li>
+                    <li class="opt">420</li>
+                    <li class="opt">134</li>
+                    <li class="opt">142</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>5 × (2 × 34) ÷ 6 + 7 – 8 <br>
+                        = 5 × (2 × 81) ÷ 6 + 7 – 8 <br>
+                        = 5 × 162 ÷ 6 + 7 – 8 <br>
+                        = 5 × 27 + 7 – 8 <br>
+                        = 135 + 7 – 8 <br>
+                        = 142 – 8 = 134</p>
+                </div>
+            </div><br>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Area of shaded portion of ___________.</div>
+                </div><hr>
+                <img src="./sm3q.png" alt="" style="margin-left: 25px;">
+                <ol type="A" class="op">
+                    <li class="opt">121 cm<sup>2</sup></li>
+                    <li class="opt">110 cm<sup>2</sup></li>
+                    <li class="opt">124 cm<sup>2</sup></li>
+                    <li class="opt">142 cm<sup>2</sup></li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>Area of shaded portion = Area of rectangle <br>
+                        ABCD−{Sum of area of△EAF and△EBC} <br>
+                        =[(18×10)−{12×6×10+12×10×8}] <br>
+                        =[180−(30+40)]=(180−70)=110 cm<sup>2</sup></p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Calculate the radius of a circle if its area is 25π m<sup>2</sup></div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">6 m</li>
+                    <li class="opt">3 m</li>
+                    <li class="opt">6 m</li>
+                    <li class="opt">5 m</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>Area = 25π m<sup>2</sup> <br>
+                        We know that area of a circle = πr<sup>2</sup> <br>
+                        Hence, we can write, <br>
+                        25π = πr<sup>2</sup> <br>
+                        25 = r<sup>2</sup> <br>
+                        Hence, r = 5 m <br>
+                        Therefore, the radius of the circle is 5 m</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">The value of (0.625 x 0.0729 x 28.9)/(0.0017 x 0.025 x 8.1) is ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3252</li>
+                    <li class="opt">5232</li>
+                    <li class="opt">3825</li>
+                    <li class="opt">4212</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution</button>
+                <div id="desc5" class="desc">
+                    <p>The sum of decimal places in numerator and denominator being the same, decimal point can be removed <br>
+                        (625x729x289) / (17x25x81) = 3825</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) Sum of multiples of 7 between (21 and 49) divide by Biggest common factor of 25 and 30 is equal to
+
+Explanation: consider A=Sum of multiples of 7 between 21 & 49
+i.	e. 28+35+42=105
+now, consider B=biggest common factor of 25 and 30 is 5
+so, A/B=105/5=21
+
+Q.2) Evaluate: 5 × (2 × 34) ÷ 6 + 7 – 8
+
+Solution:
+5 × (2 × 34) ÷ 6 + 7 – 8
+= 5 × (2 × 81) ÷ 6 + 7 – 8
+= 5 × 162 ÷ 6 + 7 – 8
+= 5 × 27 + 7 – 8
+= 135 + 7 – 8
+= 142 – 8 = 134.
+
+Q. 3) Area of shaded portion of ___________.
+ figure available
+Options: 
+Solution:
+Area of shaded portion = Area of rectangle
+ABCD−{Sum of area of△EAF and△EBC}
+=[(18×10)−{12×6×10+12×10×8}]
+=[180−(30+40)]=(180−70)=110 cm2.
+
+Q.4) 2. Calculate the radius of a circle if its area is 25π m2.
+Solution:
+Given: Area = 25π m2
+We know that area of a circle = πr2
+Hence, we can write,
+25π = πr2
+25 = r2
+Hence, r = 5 m
+Therefore, the radius of the circle is 5 m.
+
+Q.5) The value of (0.625 x 0.0729 x 28.9)/(0.0017 x 0.025 x 8.1) is
+a) 0.3825
+b) 3.825
+c) 38.25
+d) 382.5
+Solution: The sum of decimal places in numerator and denominator being the same, decimal point can be removed
+(625x729x289) / (17x25x81) = 3825
+
+Q.) The number of coins 1.5 cm in diameter and 0.2cm thick to be melted to form a right circular cylinder of height 10 cm and diameter 4.5 cm is:
+a) 380
+b) 450
+c) 472
+d) 540
+Solution: Volume of 1 coin = 22/7 x(1.5)/2x(1.5)/2 x 0.2 = 99/280 cm3
+Volume of large cylinder = 22/7 x(4.5)/2x(4.5)/2 x 10 = (99x45)/28cm3
+Number of coins = (99x45)/28 x 280/99 = 450
+
+Q) Find x if sin(x+36^) = cos x
+Solution:
+sin(x+36^) = cos x
+cos(90^ - (x+36^)) = cos x
+90^ - (x+36^) = x
+2x = 54^
+x= 27^-->

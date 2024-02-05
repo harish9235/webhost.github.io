@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSufficiencyQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">In which year was Rahul born ? <br>
+                        Statements: <br>
+                        I.	Rahul at present is 25 years younger to his mother. <br>
+                        II.	Rahul's brother, who was born in 1964, is 35 years younger to his mother.</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">I alone is sufficient while II alone is not sufficient</li>
+                    <li class="opt">II alone is sufficient while I alone is not sufficient</li>
+                    <li class="opt">Either I or II is sufficient</li>
+                    <li class="opt">Neither I nor II is sufficient</li>
+                    <li class="opt">Both I and II are sufficient</li>
+                </ol>
+                <div class="an">Answer :Option E</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>From both I and II, we find that Rahul is (35 - 25) = 10 years older than his brother, who was born in 1964. So, Rahul was born in 1954</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">How many children does M have ? <br>
+                        Statements: <br>
+                        I.	H is the only daughter of X who is wife of M <br>
+                        II.	K and J are brothers of M</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">I alone is sufficient while II alone is not sufficient</li>
+                    <li class="opt">II alone is sufficient while I alone is not sufficient</li>
+                    <li class="opt">Either I or II is sufficient</li>
+                    <li class="opt">Neither I nor II is sufficient</li>
+                    <li class="opt">Both I and II are sufficient</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>From I, we conclude that H is the only daughter of M. But this does not indicate that M has no son. The information given in II is immaterial</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">How is J related to P ? <br>
+                        Statements: <br>
+                        I.	M is brother of P and T is sister of P. <br>
+                        II.	P's mother is married to J's husband who has one son and two daughters.
+                    </div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">I alone is sufficient while II alone is not sufficient</li>
+                    <li class="opt">II alone is sufficient while I alone is not sufficient</li>
+                    <li class="opt">Either I or II is sufficient</li>
+                    <li class="opt">Neither I nor II is sufficient</li>
+                    <li class="opt">Both I and II are sufficient</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                    <p>From II, we know that P's mother is married to J's husband, which means that J is P's mother</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">How is F related to P ? <br>Statements: <br>
+                        I.	P has two sisters M and N. <br>
+                        II.	F's mother is sister of M's father</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">I alone is sufficient while II alone is not sufficient</li>
+                    <li class="opt">II alone is sufficient while I alone is not sufficient</li>
+                    <li class="opt">Either I or II is sufficient</li>
+                    <li class="opt">Neither I nor II is sufficient</li>
+                    <li class="opt">Both I and II are sufficient</li>
+                </ol>
+                <div class="an">Answer :Option E</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>From I and II, we conclude that P is M's brother and so M's father is P's father. So, F is the child of the sister of P's father i.e. F's mother is P's aunt or F is P's cousin</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Who is taller among P, Q, R, S & T ? <br> 
+                        S is shorter than Q. P is shorter than only T. <br>
+                        Q is taller than only S. T is taller than P and R</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">I alone is sufficient while II alone is not sufficient</li>
+                    <li class="opt">II alone is sufficient while I alone is not sufficient</li>
+                    <li class="opt">Either I or II is sufficient</li>
+                    <li class="opt">Neither I nor II is sufficient</li>
+                    <li class="opt">Both I and II are sufficient</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>From I : P is shorter than only T, this means that P is taller than all Q, R & S, so T is tallest.
+                        From II : Q only taller than S, so S is shortest, and Q is second shortest, Now T taller than P and R both, So tallest of all</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--1.) In which year was Rahul born ?
+Statements:
+I.	Rahul at present is 25 years younger to his mother.
+II.	Rahul's brother, who was born in 1964, is 35 years younger to his mother.
+A)	I alone is sufficient while II alone is not sufficient
+B)	II alone is sufficient while I alone is not sufficient
+C)	Either I or II is sufficient
+D)	Neither I nor II is sufficient
+E)	Both I and II are sufficient
+
+Answer: Option E
+Explanation: From both I and II, we find that Rahul is (35 - 25) = 10 years older than his brother, who was born in 1964. So, Rahul was born in 1954.
+
+2) Question: How many children does M have ?
+Statements:
+I.	H is the only daughter of X who is wife of M.
+II.	K and J are brothers of M.
+I alone is sufficient while II alone is not sufficient
+II alone is sufficient while I alone is not sufficient
+Either I or II is sufficient
+Neither I nor II is sufficient
+Both I and II are sufficient
+Answer: Option  D
+Explanation:From I, we conclude that H is the only daughter of M. But this does not indicate that M has no son. The information given in II is immaterial.
+
+
+3)How is J related to P ?
+Statements:
+I.	M is brother of P and T is sister of P.
+II.	P's mother is married to J's husband who has one son and two daughters.
+A I alone is sufficient while II alone is not sufficient
+B II alone is sufficient while I alone is not sufficient
+C Either I or II is sufficient
+D Neither I nor II is sufficient
+E Both I and II are sufficient
+Answer: Option B
+Explanation:
+From II, we know that P's mother is married to J's husband, which means that J is P's mother.
+
+4)How is F related to P?
+Statements:
+I.	P has two sisters M and N.
+II.	F's mother is sister of M's father.
+I alone is sufficient while II alone is not sufficient
+II alone is sufficient while I alone is not sufficient
+Either I or II is sufficient
+Neither I nor II is sufficient
+Both I and II are sufficient
+Answer: Option E
+Explanation: 
+From I and II, we conclude that P is M's brother and so M's father is P's father. So, F is the child of the sister of P's father i.e. F's mother is P's aunt or F is P's cousin.
+
+Q.5) Who is taller among P, Q, R, S & T?
+S is shorter than Q. P is shorter than only T.
+Q is taller than only S. T is taller than P and R.
+
+I alone is sufficient while II alone is not sufficient
+II alone is sufficient while I alone is not sufficient
+Either I or II is sufficient
+Neither I nor II is sufficient
+Both I and II are sufficient
+
+Answer : (C)
+Explanation:
+From I : P is shorter than only T, this means that P is taller than all Q, R & S, so T is tallest.
+From II : Q only taller than S, so S is shortest, and Q is second shortest, Now T taller than P and R both, So tallest of all-->

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubesDiceQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">A dice is numbered from 1 to 6 in different ways. If 1 is adjacent to 2, 4 and 6, then which of the following statements is necessarily true?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">2 is opposite to 6</li>
+                    <li class="opt">1 is adjacent to 3</li>
+                    <li class="opt">3 is adjacent to 5</li>
+                    <li class="opt">3 is opposite to 5</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>If 1 is adjacent to 2, 4 and 6 then either 3 or 5 lies opposite to 1. So, the numbers 3 and 5 cannot lie opposite to each other. Hence, 3 is adjacent to 5 (necessarily)</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">A dice is numbered from 1 to 6 in different ways.If 1 is adjacent to 2, 3 and 5, then which of the following statements is necessarily true (?)</div>
+                    <img src="./an2q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">4 is adjacent to 6</li>
+                    <li class="opt">1 is adjacent to 3</li>
+                    <li class="opt">3 is adjacent to 5</li>
+                    <li class="opt">3 is opposite to 5</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>If 1 is adjacent to 2, 3 and 5, then either 4 or 6 lies opposite to 1. So, the numbers 4 and 6 cannot lie opposite to each other. Hence, 4 necessarily lies adjacent to 6.</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Four usual dice are thrown on the ground. The total of numbers on the top faces of these four dice is 13 as the 
+                        top faces showed 4, 3, 1 and 5 respectively. What is the total of the faces touching the ground? (?)</div>
+                    <img src="./an3q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">10</li>
+                    <li class="opt">12</li>
+                    <li class="opt">15</li>
+                    <li class="opt">14</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                   <p>In a usual dice, the sum of the numbers on any two opposite faces is always 7. Thus, 1 is opposite 6, 2 is opposite 5 and 3 is opposite 4. 
+                    Consequently, when 4, 3, 1 and 5 are the numbers on the top faces, then 3, 4, 6 and 2 respectively are the numbers on the face touching 
+                    the ground. The total of these numbers = 3 + 4 + 6 + 2 = 15</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Find the total number of cubes in the given figure</div>
+                    <img src="./cd4q.jpg" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">23</li>
+                    <li class="opt">56</li>
+                    <li class="opt">52</li>
+                    <li class="opt">29</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>(Total numbers of cubes in a line  x  Number of stack / tower) + ...
+                        = (6x1)+(5x2)+(4x3)+(3x4)+(5x2)+(6x1)
+                        = 6+10+12+12+10+6 = 56</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">In a dice a, b, c and d are written on the adjacent faces, in a clockwise order and e and f at the top and bottom. When c is at the top, what will be at the bottom</div>
+                    <img src="./cd5q.png" alt="" id="qqimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">a)</li>
+                    <li class="opt">b)</li>
+                    <li class="opt">c)</li>
+                    <li class="opt">d)</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>Clearly, the six faces are labelled as <br>
+                        Face I -> a, Face IV -> b, Face III -> c, Face II -> d, Face V -> e, Face VI -> f <br>
+                        Therefore 'a' appears opposite 'c'. <br>
+                        Hence, when 'c' is at the top, then 'a' will be at the bottom.</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) A dice is numbered from 1 to 6 in different ways.
+ If 1 is adjacent to 2, 4 and 6, then which of the following statements is necessarily true?
+ A) 2 is opposite to 6
+ B) 1 is adjacent to 3
+ C) 3 is adjacent to 5
+ D) 3 is opposite to 5
+
+ Answer: C) 3 is adjacent to 5
+
+Explanation:
+If 1 is adjacent to 2, 4 and 6 then either 3 or 5 lies opposite to 1. So, the numbers 3 and 5 cannot lie opposite to each other. Hence, 3 is adjacent to 5 (necessarily).
+
+Q.2) A dice is numbered from 1 to 6 in different ways.
+ If 1 is adjacent to 2, 3 and 5, then which of the following statements is necessarily true?
+ A) 4 is adjacent to 6
+ B) 2 is adjacent to 5
+ C) 1 is adjacent to 6
+ D) 1 is adjacent to 4
+
+ Answer: A) 4 is adjacent to 6
+
+Explanation:
+If 1 is adjacent to 2, 3 and 5, then either 4 or 6 lies opposite to 1. So, the numbers 4 and 6 cannot lie opposite to each other. 
+Hence, 4 necessarily lies adjacent to 6.
+
+Q.3) Four usual dice are thrown on the ground. The total of numbers on the top faces of these four dice is 13 as the 
+top faces showed 4, 3, 1 and 5 respectively. What is the total of the faces touching the ground?
+ A) 12
+ B) 13
+ C) 15
+ D) Cannot be determined
+
+ Answer: C) 15
+
+Explanation:
+In a usual dice, the sum of the numbers on any two opposite faces is always 7. Thus, 1 is opposite 6, 2 is opposite 5 and 3 is opposite 4. 
+Consequently, when 4, 3, 1 and 5 are the numbers on the top faces, then 3, 4, 6 and 2 respectively are the numbers on the face touching 
+the ground. The total of these numbers = 3 + 4 + 6 + 2 = 15.
+
+Q.4) Find the total number of cubes in the given figure ?
+figure available            
+ A) 56
+ B) 60
+ C) 64
+ D) 72
+
+Answer: A) 56
+
+Explanation:
+(Total numbers of cubes in a line  x  Number of stack / tower) + ...
+= (6x1)+(5x2)+(4x3)+(3x4)+(5x2)+(6x1)
+= 6+10+12+12+10+6 = 56
+
+Q.5) In a dice a, b, c and d are written on the adjacent faces, in a clockwise order and e and f at the top and bottom. When c is at the top, what will be at the bottom?
+ figure available
+A) a
+B) b
+C) c
+D) d
+Answer: Option A
+Explanation:
+Clearly, the six faces are labelled as
+Face I -> a, Face IV -> b, Face III -> c, Face II -> d, Face V -> e, Face VI -> f
+Therefore 'a' appears opposite 'c'.
+Hence, when 'c' is at the top, then 'a' will be at the bottom.
+
+Q.6) The four different positions of a dice are given below: Find the number on the face opposite the face showing 6?
+ Figure is available
+A) 1
+B) 2
+C) 4
+D) 5
+Answer: Option C
+Explanation:
+From figures (i), (ii) and (iii), we conclude that 3, 4, 2 and 6 lie adjacent to 5. Therefore, 1 must lie opposite 5.
+From figures (i), (iii) and (iv), we conclude that 4, 5, 6 and 1 lie adjacent to 3. Therefore, 2 must lie opposite 3. Now, we have 1 opposite 5 and 2 opposite 3. Hence, 4 must lie opposite 6.
+
+Q.7) A cube has six different symbols drawn over its six faces. The symbols are dot, circle, triangle, square, cross and arrow. Three different positions of the cube are shown in figures X, Y, and Z.
+Which symbol is opposite the arrow?
+ FIGURE IS AVAILABLE
+A) Circle
+B) Triangle
+C) Dot
+D) Cross
+Answer: Option B
+Explanation:
+From figures X and Y, we conclude that dot, circle, square and cross lie adjacent to the triangle. Therefore, 
+the arrow must lie opposite the triangle. From figures X and Z, we conclude that dot, triangle, arrow and cross 
+lie adjacent to the circle. Therefore, the square must lie opposite the circle. Thus, the arrow lies opposite the triangle, the square 
+lies opposite the circle and consequently, the cross lies opposite the dot.
+As analysed above, the symbol opposite the arrow is the triangle.
+
+Q.8) A dice is numbered from 1 to 6 in different ways.
+If 1 is adjacent to 2, 4 and 6, then which of the following statements is necessarily true?
+A) 2 is opposite to 6
+B) 1 is adjacent to 3
+C) 3 is adjacent to 5
+D) 3 is opposite to 5
+Answer: Option C
+Explanation:
+If 1 is adjacent to 2, 4 and 6 then either 3 or 5 lies opposite to 1. So, the numbers 3 and 5 cannot lie opposite to each other. Hence, 3 is adjacent to 5 (necessarily).
+
+Q.9) How many cubes are there in below figure?
+figure is available
+
+ 	 
+10
+11
+12
+13
+
+Correct Option: B
+exp:
+4 columns with 1 cubes = 4 cubes
+1 columns with 3 cubes = 3
+1 columns with 4 cubes = 4
+Total cubes = 4 + 3 + 4 = 11
+
+Q.10) Four positions of a dice are given below. Identify the number at the bottom when the number on the top is 2.
+
+figure is available	 
+a) 6
+b) 3
+c) 4
+d) 5
+Correct Option: D
+On the basis of question figure pattern ,
+The numbers 1, 2, 5 and 6 are on the faces adjacent to the number 3.
+Therefore, 4 lies opposite 3.
+The numbers 2, 3, 4 and 5 are on the faces adjacent to the number 1.
+Therefore, 6 lies opposite 1.
+Now, the number 5 lies opposite 2.-->

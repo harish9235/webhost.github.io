@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleInterest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+          body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 480px;
+            height: 320px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        p{
+            background-color: azure;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 40px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+  <div id="parent">
+    <div id="side">
+        <div id="topLogo"><img src="./age_logo-removebg-preview (1).png" alt="" width="90px" height="75px"></div>
+        <a href="http://127.0.0.1:5500/CSS/Project/QA/Average.html"><div class="box">Average</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Percentage.html"><div class="box">Percentage</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Profit&Loss.html"><div class="box">Profit & Loss</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Partnership.html"><div class="box">Partnership</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Ratio&Proportion.html"><div class="box">Ratio & Proportion</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Age.html"><div class="box">Ages</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Time&Work.html"><div class="box">Time & Work</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TimeDistanceSpeed.html"><div class="box">Time-Distance-Speed</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TrainProblem.html"><div class="box">Train Problem</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleInterest.html"><div class="box">Simple Interest</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/CompoundInterest.html"><div class="box">Compound Interest</div></a>
+    </div>
+    <div id="main">
+        <div id="heading">Simple Interest</div>
+        <div id="center"> 
+            <div id="left">
+                <div id="concept">
+                    <ul>
+                        <li>Simple Interest is the method to calculate the interest where we only take the principal amount each time without changing it with respect to the interest earned in the previous cycle. In simple terms, we can say that simple interest is the interest earned only because of the principal amount</li><br>
+                        <li>Simple Interest Formula :The formula for simple interest helps you find the interest amount if the principal amount, rate of interest and time periods are given.
+                            Simple interest formula is given as</li><br>
+                        <li><p>SI=(PxRxT)/100</p>Where SI = simple interest <br>
+                            P = principal <br>
+                            R = interest rate (in percentage) <br>
+                            T = time duration (in years) <br> 
+                            In order to calculate the total amount, the following formula is used:
+                            Amount (A) = Principal (P) + Interest (I)</li>
+                    </ul>      
+                </div>
+                <div id="buttonscontainer">
+                    <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                </div>
+            </div>
+            <div id="right">
+                <div id="illustration"><img src="./SimpleInterest.html" alt="" width="540px" height="516px"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+ 
+
+
+
+Q.1) The rate at which sum becomes four times of itself in 25 years at simple Interest will be
+
+sol:
+Let, p=100, T=25 years, 4 times in 25 years=400
+So Interest amount =400-100=300
+Simple Interest=[p(principal)xTxR(Interest rate)]/100
+300=(100x25xR)/100
+Therefore, The rate at which sum becomes four times of itself in 25 years at simple Interest will be 12%
+
+Q.2) If certain sum of money at simple interest amounts to Rs.3250 in 5 years then the rate of interest per annum will be
+sol:
+
+Principal+interest=2800……2nd year
+Principal+interest=3250……3rd year
+Now, three years simple interest amount=3250-2800=450
+Therefore, rate of interest per annum will be=450/time=450/3= Rs.150
+
+Q.3) A sum of money becomes 5 times of itself in 3 years. From simple interest in how many years it will becomes 13 times?
+sol:
+In 3 years principal becomes 5 times at simple interest
+consider principal is 100, so five times of principal amount is 500
+after x years principal becomes 13 times, so principal amount is 1300
+now, interest amount  3 years=500-100=400
+and interest amount in x years=1300-100=1200
+if, to get 400 interest amount need 3 years 
+then to get 1200 interest amount it needs 9 years 
+
+Q.4) In how many years Rs 150 will produce the same interest at 8% as Rs. 800 produce in 3 years at 9/2%
+
+sol:
+for time T
+150 x (78/100) x T=800x(9/2)x100x3
+  T=100x(9/2)x50
+  T= 9 Years
+
+Q.5) A sum becomes five times of itself in 20 years. It will become 7 times itself in how many years?
+
+sol:
+Interest earned =P×r×t
+P= Principal amount
+r= Rate of interest
+t= Time period
+Here, sum becomes 5 times in 20 years, 
+⇒ Interest earned 4 times the principal amount.
+4P = P×r×20100    
+r = (420)×100     = 20%
+here we need to calculate for 7 times of the principal, interest should be 600%  
+i.e P+6P = 7P
+Time = (600%)/(20%)
+Time = 30 years
+
+
+

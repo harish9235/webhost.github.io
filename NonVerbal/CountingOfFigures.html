@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountingOfFigures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 590px;
+            height: 518px;
+            /*border: 1px solid grey;*/
+        }
+        #right{
+            width: 500px;
+            height: 518px;
+            /*border: 1px solid grey;*/
+        }
+        #concept{
+            width: 550px;
+            height: 425px;
+            border: 1px solid rgb(237, 233, 233);
+            /*border: 1px solid grey;*/
+            border-radius: 1px;
+            margin-left: 35px;
+            margin-top: 10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        p{
+            margin-left: 5px;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 15px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 2px;
+        }
+ </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/AnalogyNV.html"><div class="box">Analogy</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Classification.html"><div class="box">Classification</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CountingOfFigures.html"><div class="box">Counting of Figures</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CubesDice.html"><div class="box">Cubes and Dice</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/DotSituation.html"><div class="box">Dot Situation</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MatriXfigure.html"><div class="box">Matrix Figure</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MirrorImages.html"><div class="box">Mirror Images & Reflection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/RuleDetection.html"><div class="box">Rule Detection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PaperFolding.html"><div class="box">PaperFolding</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="box">Series</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PatternMatching.html"><div class="box">Pattern Matching</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Counting of Figures</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>In the Figure Counting reasoning section, figure counting refers to the process of formation of a defined geometrical 
+                        figure with the use of pieces of different designs. for the counting of figures, you have a shape or a figure. From the 
+                        given shape you will have to identify a given known shape and count the number of times it is present in the given shape</p>
+                        <p>Example :-How many Tringles in the below figure ?</p>
+                        <img src="./countingoffigconcept.jpg" alt="" width="170px" height="135px">
+                        <p>Solution :-</p>
+                        <p>There are a total of 47 triangles
+                            How? we will divide this triangle into 3 equal triangles(triangle formed by connecting outer side to the center of the circle) and will count the number of triangles in each part and then by taking two or more parts together. <br>
+                            Number of triangles in one part: 4(non overlapping) + 3(overlapping) = 7 * 3 = 21
+                            Number of triangles by taking two parts together: 8 = 8 * 3 = 24
+                            Number of triangles by taking all three parts together: 2
+                            Thus, total number of triangles in this puzzle are : 21+24+2= 47</p> 
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./counting figures.jpg" alt="" width="475px" height="514px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+Q.1) In question below shown, count the number of triangle and squares. 
+ figure is available
+(A) 26 triangles, 5 squares
+(B) 28 triangles, 5 squares
+(C) 26 triangles,6 squares
+(D) 28 triangles, 6 squares
+
+Correct Answer : A
+Explanation :
+The simplest triangle is shown in figure is 12 and another is IBO, BDO, DGO, GIO, ABO,CBD, DEO, IBD,BDG, DGI, GIB, ACO and COE and ACE is the total no of traingle are 12+14=26
+
+Q.2) How many triangles in the figure?
+figure is available
+(A) 16
+(B) 14
+(C) 8
+(D) 12
+Correct Answer : A
+Explanation : figure is available
+in the figure the 8 triangle is shown easily and another is COD , DOB, BOA, AOC, ACD, BDC,ABC, ABD so that total no. of triangle is 8+8=16
+
+
+Q.3) How many triangle is in the given figure?
+figure is available
+(A) 10
+(B) 12
+(C) 14
+(D) 16
+Correct Answer : A
+Explanation : figure is available
+ 
+Q.4) How many triangles are in the figure?
+figure is available
+(A) 10
+(B) 8
+(C) 12
+(D) 11
+Correct Answer : A
+Explanation :figure is available
+The triangle 6 shown in figure and another is ADB,ACB, BDC,ADC, so that total number of triangle is 10
+ 
+
+Q.5) How many squares in the figure?
+figure is available
+(A) 16
+(B) 18
+(C) 25
+(D) 27
+Correct Answer : D
+Explanation :
+from the above figure counting the squares and we get the 27 squares.
+
+Q.6) Find the number of triangles?
+figure is available
+(A) 29
+(B) 25
+(C) 28
+(D) 24
+Correct Answer : C
+Explanation :
+in the above figure it consist 8 triangle so that no. of square is 3 so that total no. of triangle is 8 ✖ 3=24
+and 4 triangle shown in question figure so that answer is 24+4=28  
+
+Q.7) Find the number of rectangles?
+figure is available
+(A) 19
+(B) 28
+(C) 27
+(D) 36
+Correct Answer : D
+Explanation :figure is available
+First mark each rectangles 1, 2 and 3 after we can cube of 1 +8+27=36 we get the answer
+ 
+Q.8) Find the number of triangles in the given figure.
+figure is available
+(A) 8
+(B) 15
+(C) 20
+(D) 25
+Correct Answer : B
+
+Q.9) What is the number of straight lines in the following figure?
+figure is available
+A) 10
+B) 12
+C) 13
+D) 17
+Answer: (B)
+Solution: label the figure as shown below:
+figure is available 
+clearly in this figure:
+There are 3 horizontal lines namely AG, BF, and CE.
+There are 3 vertical lines namely AC, HD, and GE.
+There are 6 slanting lines namely AD, AE, GC, GD, CD, AND CE.
+Thus, There are 3+3+6=12  straight lines in all.
+
+Q.10) How many Triangles are there in the following figure?
+figure is available
+A) 6
+B) 10
+C) 11
+D) 12
+Answer: (D)
+Solution: The figure may be labeled As shown below:
+figure is available
+The simplest triangle is ABE, BEF, EFC, CDE, AND AED i.e. 5 In number.
+The Triangles are composed of two components each are ABF, BCE, ACE, and ABD i.e. 4 In number.
+There is only one Triangle ABC  composed of five components. Thus 5+4+2+1 =12 Triangles in the figure.

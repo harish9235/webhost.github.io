@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/AgeQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">A person age is 2/5 of his age of his mother after 8 years he will be one half of age of his mother. How old is mother at present</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">30 Years</li>
+                    <li class="opt">40 Years</li>
+                    <li class="opt">27 Years</li>
+                    <li class="opt">42 Years</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>Present age of person and his mother in the ratio of 2/5 And, after 8 years their age ratio is 1/2 So, (2x+8)/(5x+8)=1/2</p>
+                    <p>4X+16=5X+8</p>
+                    <p>X=8</p>
+                    <p>Therefore, present age of mother is 8*5=40 Years</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Sachin is 7 Years younger than Rahul and their ages are in the ratio 7:9, What is age of Sachin</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">32 Years</li>
+                    <li class="opt">40 Years</li>
+                    <li class="opt">24.5 Years</li>
+                    <li class="opt">42 Years</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>9X-7X=7</p>
+                    <p>X=3.5</p>
+                    <p>Therefore, Sachin’s Age is 7x3.5=24.5 Years</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">If sum of age of Sachin and Rahul is 50, after 5 years what is sum of ages</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">12 Years</li>
+                    <li class="opt">60 Years</li>
+                    <li class="opt">24 Years</li>
+                    <li class="opt">42 Years</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>After 5 years sum of their age will be 50 +10 (2x5) =60 Years</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Krishna age after 15 years will be 5 times his age of 5 years back, what is the present age of Krishna</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">62 Years</li>
+                    <li class="opt">30 Years</li>
+                    <li class="opt">14 Years</li>
+                    <li class="opt">10 Years</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>Let, present age of Krishna be X</p>
+                    <p>X+15=5(X-5)</p>x+10=4(x-5)
+                    <p>40=5X-X</p>30=4x-4
+                    <p>X=10 Years</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">A is two years old than B who is twice as old as C. The total ages of A, B, C be 27. How old is B ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">32 Years</li>
+                    <li class="opt">40 Years</li>
+                    <li class="opt">10 Years</li>
+                    <li class="opt">42 Years</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>A=2+B......which is equal to 2+2X</p>
+                    <p>B=2C......which is equal to 2X</p>
+                    <p>C=X</p>
+                    <p>Total of age= A+B+C=27</p>
+                    <p>2+2X+2X+X=27</p>
+                    <p>X=5</p>
+                    <p>Now, B’s age =2X=10 Years</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!--exp:
+Present age of person and his mother in the ratio of 2/5 And, after 8 years their age ratio is ½
+So, (2x+8)/(5x+8)=1/2
+4x+16=5x+8
+X=8
+Therefore, present age of mother is 8*5=40 Years
+
+Q.2) 
+Sol:
+9x-7x=7
+X=3.5
+Therefore, Sachin’s Age is 7x3.5=24.5 Years
+
+Q.3) If sum of age of Sachin and Rahul is 50, after 5 years what is sum of ages
+
+sol:
+After 5 years sum of their age will be 50 +10 (2x5) =60 Years
+
+Q.4) Krishna age after 15 years will be 5 times his age of 5 years back, what is the present age of Krishna
+Let, present age of Krishna be X
+ X+15=5(X-5)
+40=5X-X
+X=10 Years
+
+Q.5) A is two years old than B who is twice as old as C. The total ages of A, B, C be 27. How old is B ?
+A=2+B......which is equal to 2+2X
+B=2C......which is equal to 2X
+C=X
+Total of age= A+B+C=27
+                       2+2X+2X+X=27
+                       X=5
+Now, B’s age =2X=10 Years-->

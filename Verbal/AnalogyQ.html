@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnalogyQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">EL : HJ :: DY : ? </div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">YT</li>
+                    <li class="opt">GW</li>
+                    <li class="opt">PL</li>
+                    <li class="opt">PP</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>E(5) + 3 = H(8) and L(12) – 2 = J(10) <br>
+                        Similarly, D(4) + 3 = G(7) and Y(25) – 2 = W(23) <br>
+                        Hence, GW will replace the question mark</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">RJ : IQ :: DH : ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">YT</li>
+                    <li class="opt">GW</li>
+                    <li class="opt">WS</li>
+                    <li class="opt">PP</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>R – I (Reverse Letter of R is I) and J – Q (Reverse Letter of J is Q)
+                        Similarly, D – W (Reverse letter of D is W) and H – S (Reverse letter of H is S)
+                        Hence, WS will replace the question mark</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Afghanistan : Kabul :: USA : ? </div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Delhi</li>
+                    <li class="opt">Washington</li>
+                    <li class="opt">Mumbai</li>
+                    <li class="opt">Gaja</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                    <p>Kabul is the capital of Afghanistan.Similarly, Washington is the capital of the USA.Hence, Washington will replace the question mark.</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Abode : Dwelling :: Blend : ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Intern</li>
+                    <li class="opt">Taste</li>
+                    <li class="opt">Doing</li>
+                    <li class="opt">Mix</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>Abode is the synonym of Dwelling. 
+                        Similarly, Mix is the synonym of Blend.
+                        Hence, Mix will replace the answer</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Conductor : Orchestra :: Captain : ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Car</li>
+                    <li class="opt">Ambulance</li>
+                    <li class="opt">Ship</li>
+                    <li class="opt">Hotel</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>Ship (The relationship is the leader and the entity they lead: a conductor leads an orchestra and a captain leads a ship.)</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Question 1: EL : HJ :: DY : ?
+Solution: 
+E(5) + 3 = H(8) and L(12) – 2 = J(10) 
+Similarly, D(4) + 3 = G(7) and Y(25) – 2 = W(23) 
+Hence, GW will replace the question mark
+
+Question 2: RJ : IQ :: DH : ?
+Solution: 
+R – I (Reverse Letter of R is I) and J – Q (Reverse Letter of J is Q)
+Similarly, D – W (Reverse letter of D is W) and H – S (Reverse letter of H is S)
+Hence, WS will replace the question mark.
+
+Question 3: Afghanistan : Kabul :: USA : ? 
+Solution: 
+Kabul is the capital of Afghanistan.  
+Similarly, Washington is the capital of the USA.
+Hence, Washington will replace the question mark.
+
+Question 4: Abode : Dwelling :: Blend : ? 
+Solution: 
+Abode is the synonym of Dwelling. 
+Similarly, Mix is the synonym of Blend.
+Hence, Mix will replace the answer.
+
+Question 5: History : Herodotus ∷ ? : Eratosthenes
+Solution: 
+Here the relation is:
+History : Herodotus → Herodotus is the father of History. 
+Similarly, ? : Eratosthenes → Eratosthenes is the father of Geography.
+Hence, ‘Geography’ is the correct answer.
+
+Question 11: Author : Book :: Painter : ?
+Solution: Canvas (The relationship is the creator and their creation: an author creates a book and a painter creates a painting on a canvas.)
+
+Question 12: 
+
+Question 13: Odometer : Distance :: Thermometer : ?
+Solution: Temperature (The relationship is the instrument and the quantity it measures: an odometer measures distance and a thermometer measures temperature.)
+
+Question 14: Oak : Tree :: Rose : ?
+Solution: Flower (The relationship is the specific to the general category: oak is a type of tree and rose is a type of flower.)
+
+Question 15: Starve : Food :: Dehydrate : ?
+Solution: Water (The relationship is the condition caused by a lack of a particular substance: starve is caused by a lack of food, and dehydrate is caused by a lack of water.)
+
+Question 16: Marathon : Race :: Sonnet : ?
+Solution: Poem (The relationship is the specific to the general category: a marathon is a type of race and a sonnet is a type of poem.)
+
+Question 17: Fear : Phobia :: Love : ?
+Solution: Philia (The relationship is the emotion and its corresponding scientific term: fear is called phobia and love is called philia.)
+Question 18: Encyclopedia : Knowledge :: Thesaurus : ?
+Solution: Synonyms (The relationship is the reference book and the information it provides: an encyclopedia provides knowledge and a thesaurus provides synonyms.)
+Question 19: Butterfly : Caterpillar :: Frog : ?
+Solution: Tadpole (The relationship is the adult and the juvenile form of an organism: a butterfly develops from a caterpillar and a frog develops from a tadpole.)
+Question 20: Earth : Planet :: Sun : ?
+Solution: Star (The relationship is the specific to the general category: Earth is a type of planet and Sun is a type of star.)
+Question 21: Glacier : Ice :: Desert : ?
+Solution: Sand (The relationship is the geographical feature and its predominant substance: a glacier is made of ice and a desert is made of sand.)
+Question 22: Square : Rectangle :: Circle : ?
+Solution: Ellipse (The relationship is the specific to the general geometric shape: a square is a type of rectangle and a circle is a type of ellipse.)
+Question 23: Conductor : Orchestra :: Captain : ?
+Solution: Ship (The relationship is the leader and the entity they lead: a conductor leads an orchestra and a captain leads a ship.)
+Question 24: Ignite : Fire :: Freeze : ?
+Solution: Ice (The relationship is the action and the resulting state: ignite leads to fire and freeze leads to ice.)-->

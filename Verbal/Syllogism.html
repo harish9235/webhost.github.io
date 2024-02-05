@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllogism</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 480px;
+            height: 380px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/Analogy.html"><div class="box">Analogy</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/BloodRelation.html"><div class="box">Blood Relation</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/Coding&Decoding.html"><div class="box">Coding-Decoding</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/DataSufficiency.html"><div class="box">Data Sufficiency</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/DirectionSense.html"><div class="box">Direction Sense</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/LogicalSequenceofWords.html"><div class="box">Logical Sequence of Words</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/SeatingArrangement.html"><div class="box">Seating Arrangement</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/StatementConclusion.html"><div class="box">Statement-Conclusion</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/AlphaNumeric.html"><div class="box">Alpha Numeric</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/VennDiagram.html"><div class="box">Venn Diagram</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Syllogism</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>Syllogism is a part of logical reasoning, especially analytical reasoning. It consists of some statements, and candidates need to derive conclusions from the given statements. The statements and conclusions may seem to be illogical, but while solving questions related to syllogism in reasoning, candidates must assume the given statements to be 100% true</p>
+                       <p>Sample Example :Arrange the following statements in a logical sequence</p>
+                       <ol>
+                        <li>All Apples are Fruits</li>
+                        <li>Some Fruits are Mangoes</li>
+                        <li>All Mangoes are yellow Mangoes</li>
+                       </ol>
+                       <ol type="A">
+                        <li>II, I, III</li>
+                        <li>III, II, I</li>
+                        <li>I, III, II</li>
+                        <li>I, II, III</li>
+                       </ol>
+                       <p>Answer:
+                        D) I, II, III <br>Explanation :The correct logical sequence is: All Apples are Fruits (I) → Some Fruits are Mangoes (II) → All Mangoes are Yellow Mangoes (III)</p>
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./syllogism.jpg" alt="" width="540px" height="516px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+
+
+.
+
+Q.1) Statements: Some actors are singers. All the singers are dancers.
+Conclusions:1.	Some actors are dancers.
+            2.	No singer is actor.
+A) Only (1) conclusion follows
+B) Only (2) conclusion follows
+C) Either (1) or (2) follows
+D) Neither (1) nor (2) follows
+E) Both (1) and (2) follow
+Answer: Option A
+Explanation:figure available
+
+Q.2) Statements: All buildings are chalks. No chalk is toffee.
+Conclusions:
+1.	No building is toffee
+2.	All chalks are buildings.
+Only (1) conclusion follows
+Only (2) conclusion follows
+Either (1) or (2) follows
+Neither (1) nor (2) follows
+Both (1) and (2) follow
+Answer: Option A
+Explanation: figure available
+
+Q.3) Statements: Some Cats are Rats. All bats are tables. All Rats are Bats.
+Conclusion:
+I. Some Cats are bats
+II. All bats are rats
+III. All tables are cats
+IV. All bats are cats
+Only I & II follow
+Only II follows
+Only I & IV follow
+None of these
+ANSWER: Option D
+Explanation: figure is available
+Clearly, from the diagram Conclusion I is true.
+
+q.4) Statements: Most CPUs are keyboards. No keyboard is a Mouse. All Mouses are CPU.
+Conclusion:
+I. Some keyboards are CPU
+II. All CPU’s are Mouse
+III. No Mouse is a keyboard
+IV. Some Mouse are keyboard
+Only I follows
+Only II and III follow
+Only I and III follow
+Only II follows
+Answer & Explanation
+Answer Key: C
+figure available
+
+Q.5)Statements: Samosas are Jalebi. All Jalebis are Tikki. All Tikkis are Barfi
+Conclusion:
+I. All Jalebis are Barfi
+II. All Tikkis are Samosas
+III. All Samosas are Barfi
+IV. All Barfi are Jalebi
+Only I and II follow
+Only I and III follow
+Only II and III follow
+All follow
+Answer: B
+Answer Key: 2   
+figure available   Clearly from the diagram, I and III are true.
+
+Q.6)Statements: All cars are cats. All fans are cats.
+Conclusions:
+I.All cars are fans.
+II.Some fans are cars.
+Only (I) conclusion follows
+Only (II) conclusion follows
+Either (I) or (II) follows
+Neither (I) nor (II) follows
+Both (I) and (II) follow
+Answer: Option D
+Explanation: figure is available
+
+
+Q.7)Statements: Some mangoes are yellow. Some Tixo are mangoes.
+Conclusions:
+I.	Some mangoes are green.
+II.	Tixo is a yellow.
+Only (I) conclusion follows
+Only (II) conclusion follows
+Either (I) or (II) follows
+Neither (I) nor (II) follows
+Both (I) and (II) follow
+Answer: Option D
+Explanation: figure is available
+
+Q.8) Statements: All buildings are chalks. No chalk is toffee.
+Conclusions:
+I.	No building is toffee
+II.	All chalks are buildings.
+Only (I) conclusion follows
+Only (II) conclusion follows
+Either (I) or (II) follows
+Neither (I) nor (II) follows
+Both (I) and (II) follow
+Answer: Option A
+
+Explanation: figure is available
+
+
+Q.9) Statements: Most CPUs are keyboards. No keyboard is a Mouse. All Mouses are CPU.
+Conclusion:
+I. Some keyboards are CPU
+II. All CPU’s are Mouse
+III. No Mouse is a keyboard
+IV. Some Mouse are keyboard
+1. Only I follows
+2. Only II and III follow
+3. Only I and III follow
+4. Only II follows
+Answer & Explanation
+Answer Key: 3  figure available
+Clearly from the diagram, I and III are true.
+
+
+
+Q.10) Statements: Some messages are whatsapp. All Hikes are whatsapp. All whatsapp are facebook.
+Conclusion:
+I. Some facebook are messages
+II. All hikes are facebook
+III. Some messages are hikes
+IV. Some message are facebook
+1. All follow
+2. Only I, II and III follow
+3. Only I, II and IV follow
+4. Only III and IV follow
+Answer & Explanation
+Answer Key: 3
+figure is available 
+Clearly from the diagram I, II and IV are true
+
+
+
+
+
+
+
+

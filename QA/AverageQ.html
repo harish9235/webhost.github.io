@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AverageQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/AverageQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Average</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">The monthly incomes of Raja, his wife and their son are Rs.6000, Rs.4000 and Rs.1880 respectively. Find their average income?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.3960</li>
+                    <li class="opt">Rs.4000</li>
+                    <li class="opt">Rs.2370 </li>
+                    <li class="opt">Rs.4200</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>Raja’s income= Rs.6000, his wife income=Rs.4000 and son income=1880</p>
+                    <p>So, Average income=(6000+4000+1880)/3= Rs.3960</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Rajiv purchased three dozen mangoes at Rs.10 per dozen, two dozen mangoes at Rs.15 per dozen and five dozen mangoes at Rs.16 per dozen.
+                        Find the average cost per dozen of the mangoes that he Purchased?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.39</li>
+                    <li class="opt">Rs.40</li>
+                    <li class="opt">Rs.14</li>
+                    <li class="opt">Rs.42</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>3 dozen mangoes amount=3x10= Rs.30</p>
+                    <p>2 dozen mangoes amount=2x15= Rs.30</p>
+                    <p>5 dozen mangoes amount=5x16= Rs.80</p>
+                    <P>Therefore, Average cost per dozen=total amount/total dozen=(30+30+80)/(3+2+5)= Rs.14</P>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">The average temperature for Wednesday, Thursday and Friday was 40°C. The average for Thursday, Friday and Saturday was 41° C. If temperature on Saturday was 42° C, what was the temperature on Wednesday?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">39° C</li>
+                    <li class="opt">44° C</li>
+                    <li class="opt">38° C </li>
+                    <li class="opt">41° C</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p id="pp">Average temperature for Wednesday, Thursday and Friday = 40° C <br>
+                        Total temperature = 3 x 40 = 120° C <br>
+                        Average temperature for Thursday, Friday and Saturday = 41° C <br>
+                        Total temperature = 41 x 3 = 123° C <br>
+                        Temperature on Saturday = 42° C <br>
+                        Now,<br>
+                        (Thursday + Friday + Saturday) - (Wednesday + Thursday + Friday) = 123 - 120;<br>
+                        Saturday - Wednesday = 3 <br>
+                        Wednesday = 42 - 3 = 39° C</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">The avg mark obtained by 40 students of a class is 86. If the 5 highest marks are removed, the avg reduced by one mark. The avg marks of the top 5 student is?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">60</li>
+                    <li class="opt">40</li>
+                    <li class="opt">27 </li>
+                    <li class="opt">93</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>Total marks=40x86=3440</p>
+                    <p>After removing 5 highest mark the avg is reduced by 1 mark i.e. average=85 of 35 students</p>
+                    <p>After removing top 5 highest marks, the total marks=85*35=2975</p>
+                    <p>Now the average of top 5 student=(3440-2975)/5=93</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">24 students collected money for donation. The average contribution was ₹50 Later on, their teacher also contributed some money. Now the average contribution is ₹56. The teacher’s contribution is:</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.390</li>
+                    <li class="opt">Rs.400</li>
+                    <li class="opt">Rs.200</li>
+                    <li class="opt">Rs.420</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>Total money collected from 24 Students is: 24(Students)x50(rupees)=1200</p>
+                    <p>Total money collected from 24 Students including Teacher is:  25 (Students +one teacher)x56(rupees)=1400</p>
+                    <p>Therefore, the teacher’s contribution is: 1400-1200= 200 Rupees</p>                                                                    
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) The monthly incomes of Raja, his wife and their son are Rs.6000, Rs.4000 and Rs.1880 respectively. Find their average income?
+Sol: Raja’s income= Rs.6000, his wife income=Rs.4000 and son income=1880
+So, Average income=(6000+4000+1880)/3= Rs.3960
+
+
+Q.2) Rajiv purchased three dozen mangoes at Rs.10 per dozen, two dozen mangoes at Rs.15 per dozen and five dozen mangoes at Rs.16 per dozen.
+ Find the average cost per dozen of the mangoes that he Purchased?
+ sol:
+ 3 dozen mangoes amount=3x10= Rs.30 5*10=50
+2 dozen mangoes amount=2x15= Rs.30 30
+5 dozen mangoes amount=5x16= Rs.80  3*16=48
+Therefore, Average cost per dozen=total amount/total dozen=(30+30+80)/(3+2+5)= Rs.14
+
+Q.3) The average temperature for Wednesday, Thursday and Friday was 40°C. The average for Thursday, Friday and Saturday was 41° C. If temperature on Saturday was 42° C, what was the temperature on Wednesday?
+A. 39° C
+B. 44° C
+C. 38° C
+D. 41° C
+Answer: Option A
+Solution:
+Average temperature for Wednesday, Thursday and Friday = 40° C
+Total temperature = 3 x 40 = 120° C 
+Average temperature for Thursday, Friday and Saturday = 41° C
+Total temperature = 41 x 3 = 123° C 
+Temperature on Saturday = 42° C  
+Now,
+(Thursday + Friday + Saturday) - (Wednesday + Thursday + Friday) = 123 - 120;
+Saturday - Wednesday = 3 
+Wednesday = 42 - 3 = 39° C 
+
+Q.4) The avg mark obtained by 40 students of a class is 86. If the 5 highest marks are removed, the avg reduced by one mark. The avg marks of the top 5 student is?
+a.	92
+b.	96
+c.	93
+d.	97 
+sol:
+Total marks=40x86=3440...   2280
+After removing 5 highest mark the avg is reduced by 1 mark i.e. average=85 of 35 students...  74 26
+After removing top 5 highest marks, the total marks=85*35=2975....  1924
+Now the average of top 5 student=(3440-2975)/5=93..89
+
+Q.5) 24 students collected money for donation. The average contribution was ₹50 Later on, their teacher also contributed some money. Now the average contribution is ₹56. The teacher’s contribution is:
+A)55   B)210  C)200  D)194
+Explanation:
+Total money collected from 24 Students is: 24(Students)x50(rupees)=1200  65*35=2275                                                                     
+Total money collected from 24 Students including Teacher is:  25 (Students +one teacher)x56(rupees)=1400   66*46=3036
+Therefore, the teacher’s contribution is: 1400-1200= 200 Rupees-->

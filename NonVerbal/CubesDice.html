@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubeDice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+       body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 490px;
+            height: 360px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        p{
+            margin-left: 5px;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 40px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+ </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/AnalogyNV.html"><div class="box">Analogy</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Classification.html"><div class="box">Classification</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CountingOfFigures.html"><div class="box">Counting of Figures</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CubesDice.html"><div class="box">Cubes and Dice</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/DotSituation.html"><div class="box">Dot Situation</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MatriXfigure.html"><div class="box">Matrix Figure</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MirrorImages.html"><div class="box">Mirror Images & Reflection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/RuleDetection.html"><div class="box">Rule Detection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PaperFolding.html"><div class="box">PaperFolding</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="box">Series</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PatternMatching.html"><div class="box">Pattern Matching</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Cubes & Dice</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>Cube is a three-dimensional figure which can only be made out of a square. Square when given a height equal to one of the sides, becomes a cube. Die/Dice is a three-dimensional figure with each of its six sides/faces showing different numbers/letters/colors etc</p>
+                       <p>Important Facts of Cube and Dice</p>
+                       <ul>
+                        <li>A cube has 6 square faces or sides</li><br>
+                        <li>A cube has 8 points (vertices)</li><br>
+                        <li>A cube has 12 edges</li><br>
+                        <li>Only 3 sides of a cube are visible at a time (known as “Joint Sides”) and these sides can never be on the opposite side of each other</li><br>
+                        <li>Things that are shaped like a cube are often referred to as ‘cubic’</li><br>
+                        <li>Most dice are cube shaped, with the numbers 1 to 6 on the different faces.</li>
+                       </ul>
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./cubeDice.jpg" alt="" width="540px" height="516px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+Q.1) A dice is numbered from 1 to 6 in different ways.
+ If 1 is adjacent to 2, 4 and 6, then which of the following statements is necessarily true?
+ A) 2 is opposite to 6
+ B) 1 is adjacent to 3
+ C) 3 is adjacent to 5
+ D) 3 is opposite to 5
+
+ Answer: C) 3 is adjacent to 5
+
+Explanation:
+If 1 is adjacent to 2, 4 and 6 then either 3 or 5 lies opposite to 1. So, the numbers 3 and 5 cannot lie opposite to each other. Hence, 3 is adjacent to 5 (necessarily).
+
+Q.2) A dice is numbered from 1 to 6 in different ways.
+ If 1 is adjacent to 2, 3 and 5, then which of the following statements is necessarily true?
+ A) 4 is adjacent to 6
+ B) 2 is adjacent to 5
+ C) 1 is adjacent to 6
+ D) 1 is adjacent to 4
+
+ Answer: A) 4 is adjacent to 6
+
+Explanation:
+If 1 is adjacent to 2, 3 and 5, then either 4 or 6 lies opposite to 1. So, the numbers 4 and 6 cannot lie opposite to each other. 
+Hence, 4 necessarily lies adjacent to 6.
+
+Q.3) Four usual dice are thrown on the ground. The total of numbers on the top faces of these four dice is 13 as the 
+top faces showed 4, 3, 1 and 5 respectively. What is the total of the faces touching the ground?
+ A) 12
+ B) 13
+ C) 15
+ D) Cannot be determined
+
+ Answer: C) 15
+
+Explanation:
+In a usual dice, the sum of the numbers on any two opposite faces is always 7. Thus, 1 is opposite 6, 2 is opposite 5 and 3 is opposite 4. 
+Consequently, when 4, 3, 1 and 5 are the numbers on the top faces, then 3, 4, 6 and 2 respectively are the numbers on the face touching 
+the ground. The total of these numbers = 3 + 4 + 6 + 2 = 15.
+
+Q.4) Find the total number of cubes in the given figure ?
+figure available            
+ A) 56
+ B) 60
+ C) 64
+ D) 72
+
+Answer: A) 56
+
+Explanation:
+(Total numbers of cubes in a line  x  Number of stack / tower) + ...
+= (6x1)+(5x2)+(4x3)+(3x4)+(5x2)+(6x1)
+= 6+10+12+12+10+6 = 56
+
+Q.5) In a dice a, b, c and d are written on the adjacent faces, in a clockwise order and e and f at the top and bottom. When c is at the top, what will be at the bottom?
+ figure available
+A) a
+B) b
+C) c
+D) d
+Answer: Option A
+Explanation:
+Clearly, the six faces are labelled as
+Face I -> a, Face IV -> b, Face III -> c, Face II -> d, Face V -> e, Face VI -> f
+Therefore 'a' appears opposite 'c'.
+Hence, when 'c' is at the top, then 'a' will be at the bottom.
+
+Q.6) The four different positions of a dice are given below: Find the number on the face opposite the face showing 6?
+ Figure is available
+A) 1
+B) 2
+C) 4
+D) 5
+Answer: Option C
+Explanation:
+From figures (i), (ii) and (iii), we conclude that 3, 4, 2 and 6 lie adjacent to 5. Therefore, 1 must lie opposite 5.
+From figures (i), (iii) and (iv), we conclude that 4, 5, 6 and 1 lie adjacent to 3. Therefore, 2 must lie opposite 3. Now, we have 1 opposite 5 and 2 opposite 3. Hence, 4 must lie opposite 6.
+
+Q.7) A cube has six different symbols drawn over its six faces. The symbols are dot, circle, triangle, square, cross and arrow. Three different positions of the cube are shown in figures X, Y, and Z.
+Which symbol is opposite the arrow?
+ FIGURE IS AVAILABLE
+A) Circle
+B) Triangle
+C) Dot
+D) Cross
+Answer: Option B
+Explanation:
+From figures X and Y, we conclude that dot, circle, square and cross lie adjacent to the triangle. Therefore, 
+the arrow must lie opposite the triangle. From figures X and Z, we conclude that dot, triangle, arrow and cross 
+lie adjacent to the circle. Therefore, the square must lie opposite the circle. Thus, the arrow lies opposite the triangle, the square 
+lies opposite the circle and consequently, the cross lies opposite the dot.
+As analysed above, the symbol opposite the arrow is the triangle.
+
+Q.8) A dice is numbered from 1 to 6 in different ways.
+If 1 is adjacent to 2, 4 and 6, then which of the following statements is necessarily true?
+A) 2 is opposite to 6
+B) 1 is adjacent to 3
+C) 3 is adjacent to 5
+D) 3 is opposite to 5
+Answer: Option C
+Explanation:
+If 1 is adjacent to 2, 4 and 6 then either 3 or 5 lies opposite to 1. So, the numbers 3 and 5 cannot lie opposite to each other. Hence, 3 is adjacent to 5 (necessarily).
+
+Q.9) How many cubes are there in below figure?
+figure is available
+
+ 	 
+10
+11
+12
+13
+
+Correct Option: B
+exp:
+4 columns with 1 cubes = 4 cubes
+1 columns with 3 cubes = 3
+1 columns with 4 cubes = 4
+Total cubes = 4 + 3 + 4 = 11
+
+Q.10) Four positions of a dice are given below. Identify the number at the bottom when the number on the top is 2.
+
+figure is available	 
+a) 6
+b) 3
+c) 4
+d) 5
+Correct Option: D
+On the basis of question figure pattern ,
+The numbers 1, 2, 5 and 6 are on the faces adjacent to the number 3.
+Therefore, 4 lies opposite 3.
+The numbers 2, 3, 4 and 5 are on the faces adjacent to the number 1.
+Therefore, 6 lies opposite 1.
+Now, the number 5 lies opposite 2.

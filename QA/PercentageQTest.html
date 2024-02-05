@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PercentageQTest</title>
+    <link rel="stylesheet" href="QTest.css">
+</head>
+<body>
+    <div id="parent">
+        <div class="header">
+            <div class="testLogo"><img src="./testLogo.jpg" alt="" width="38px" height="36px"></div>
+            <div class="head">Mock Test : <span>Percentage</span></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="content">Home</div></a>
+        </div>
+        <div class="topics">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/AverageQTest.html"><div class="qBox">Average</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/AgeQTest.html"><div class="qBox">Ages</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Profit&LossQTest.html"><div class="qBox">Profit & Loss</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/PartnershipQTest.html"><div class="qBox">Partnership</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Ratio&proportionQtest.html"><div class="qBox">Ratio & Proportion</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleMathsQTest.html"><div class="qBox">Simple Maths</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Time&WorkQTest.html"><div class="qBox">Time & Work</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TimeDistanceSpeedQTest.html"><div class="qBox" style="width: 110px;">Time-Distance-Speed</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TrainProblemQTest.html"><div class="qBox">Train Problem</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleInterestQTest.html"><div class="qBox">Simple Interest</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/CompoundInterestQTest.html"><div class="qBox">Compound Interest</div></a>
+        </div>
+        <div class="main">
+            <div class="que">
+                <form id="frm">
+                    <div class="question">
+                        <p>Q.1) If X = 45 & Y = 30 then, X is what % more than Y ?</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q1" value="a" class="c"> X is 50 % more than Y</label> 
+                            <label for=""><input type="radio" name="q1" value="b"> X is 25 % more than Y</label>
+                            <label for=""><input type="radio" name="q1" value="c"> X is 30 % more than Y</label>
+                            <label for=""><input type="radio" name="q1" value="d"> X is 20 % more than Y</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.2) P = 60 & Q = 20, if P is increase by 25 % and Q is increase by 20% then what is the total percentage change ?</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q2" value="a"> 16.4 %</label>
+                            <label for=""><input type="radio" name="q2" value="b" class="c"> 15.2 %</label>
+                            <label for=""><input type="radio" name="q2" value="c"> 12.5 %</label>
+                            <label for=""><input type="radio" name="q2" value="d"> 11.25 %</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.3) if length of rectangle is increase by 10% and breadth is increase by 5% then what is percentage change in area of rectangle ?</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q3" value="a"> 16.5%</label>
+                            <label for=""><input type="radio" name="q3" value="b"> 10.2%</label>
+                            <label for=""><input type="radio" name="q3" value="c" class="c"> 11.5%</label>
+                            <label for=""><input type="radio" name="q3" value="d"> 20.4%</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.4) The population of the district of Pune is 2,00,000 the rate of increase is 15% per annum. Find the population at the start of 3rd year ?/p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q4" value="a"> 201450</label>
+                            <label for=""><input type="radio" name="q4" value="b"> 153950</label>
+                            <label for=""><input type="radio" name="q4" value="c"> 213450</label>
+                            <label for=""><input type="radio" name="q4" value="d" class="c"> 233450</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.5) Which option is better, a successive discount of 20% and 10% or flat discount of 30%</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q5" value="a"> successive discount of 20% and 10%</label>
+                            <label for=""><input type="radio" name="q5" value="b"> Both</label>
+                            <label for=""><input type="radio" name="q5" value="c"> none of them</label>
+                            <label for=""><input type="radio" name="q5" value="d" class="c"> flat discount of 30% is better</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="sb" id="sbb">Submit</button>
+                </form>
+                <div class="result" id="result"></div>
+            </div>
+            <div class="side">
+                <div class="verbalTest">
+                    <div class="vhead">Verbal Reasoning | Mock Test</div>
+                    <a href=""><div class="vBox">Alpha Numeric</div></a>
+                    <a href=""><div class="vBox">Analogy</div></a>
+                    <a href=""><div class="vBox">Blood Relation</div></a>
+                    <a href=""><div class="vBox">Coding-Decoding</div></a>
+                    <a href=""><div class="vBox">Data Sufficiency</div></a>
+                    <a href=""><div class="vBox">Direction Sense</div></a>
+                    <a href=""><div class="vBox">Logical Sequence of Words</div></a>
+                    <a href=""><div class="vBox">Seating Arrangement</div></a>
+                    <a href=""><div class="vBox">Statement & Conclusion</div></a>
+                    <a href=""><div class="vBox">Syllogism</div></a>
+                    <a href=""><div class="vBox">Venn Diagram</div></a>
+                </div>
+                <div class="NonverbalTest">
+                    <div class="vhead">Non-Verbal Reasoning | Mock Test</div>
+                    <a href=""><div class="vBox">Analogy</div></a>
+                    <a href=""><div class="vBox">Classification</div></a>
+                    <a href=""><div class="vBox">Counting of Figures</div></a>
+                    <a href=""><div class="vBox">Cubes-Dice</div></a>
+                    <a href=""><div class="vBox">Dot Situation</div></a>
+                    <a href=""><div class="vBox">Matrix Figure</div></a>
+                    <a href=""><div class="vBox">Mirror Images</div></a>
+                    <a href=""><div class="vBox">Paper Folding</div></a>
+                    <a href=""><div class="vBox">Pattern Matching</div></a>
+                    <a href=""><div class="vBox">Rule Detection</div></a>
+                    <a href=""><div class="vBox">Series</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./QTest.js"></script>
+</body>
+</html>
+<!--Q.1 If A = 50 & B = 40 then, A is what % more than B?
+
+Sol: consider 1% of B=40/100=0.4
+A-B=50-40=10
+Now, 10/0.4=25
+Therefore, A is 25 % more than B.
+ 
+Q.2) A = 50 & B = 40, if A is increase by 10 % and B is increase by 30% then what is the total percentage change?
+sol:
+Total(before increasing)=50+40=90  60+20=80
+if A is increase by 10 %=50+((50/100)x10)=55    75
+B is increase by 30%=40+((40/100)x30)=52   24
+Total(after increasing)=55+52=107     99
+Change in total=107-90=17    99-80=19
+Therefore total percentage change=17/(90/100)=18.88%    0.8*19=15.2
+
+Q.3) if length of rectangle is increase by 20% and breadth is increase by 10% then what is percentage the increase in area of rectangle?
+Sol:
+Consider, length of rectangle L=100 m and breadth B=100 m    
+Length of rectangle is increase by 20%=100+20%=120 m  142    110        
+breadth of rectangle is increase by 10%=100+10%=110 m 120    105    
+Now, Increase in Area of rectangle=LxB=120x110=13200 m2   3200/(10000/100)=32%    11550  1150/(10000/100)=11.5%
+
+
+Q.4) The population of the district of solapur is 1,00,000 the rate of increase is 10% per annum. Find the population at the start of 3rd year?
+Sol:
+The population at the start of 3rd year means Population of 2 years
+So, First year population=1,00,000 +10%=1,10,000   200000+15%   230000
+Second year population=1,10,000 +10%=1,21,000
+Therefore at start of third year the population will be 1,21,000   233450
+
+Q. 5) Which option is better, a successive discount of 40% and 30% or flat discount of 70%
+sol:
+Let’s Consider the amount is 100
+Case A:  successive discount of 40% and 30% ,it means first 40% discount on amount, after that 30% discount on remaining amount i.e 100-40%=60,   80
+now 60-30%=42….so, final amount after 40% and 30% discount is 42  72
+Case B: flat 70% discount i.e 100-70%=30…so, final amount after flat 70% is 30   70
+Therefore Case B is better--> 

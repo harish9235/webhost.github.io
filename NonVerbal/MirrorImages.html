@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirrorImages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 500px;
+            height: 320px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        p{
+            margin-left: 6px;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+ </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/AnalogyNV.html"><div class="box">Analogy</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Classification.html"><div class="box">Classification</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CountingOfFigures.html"><div class="box">Counting of Figures</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/CubesDice.html"><div class="box">Cubes and Dice</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/DotSituation.html"><div class="box">Dot Situation</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MatriXfigure.html"><div class="box">Matrix Figure</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/MirrorImages.html"><div class="box">Mirror Images & Reflection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/RuleDetection.html"><div class="box">Rule Detection</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PaperFolding.html"><div class="box">PaperFolding</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="box">Series</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/PatternMatching.html"><div class="box">Pattern Matching</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Mirror Images & Reflection</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                     <p>The image of an object as seen in a mirror is its mirror reflection or mirror image. In such an image, the right side of the object appears on the left side and vice versa. A mirror-image is therefore said to be laterally inverted and the phenomenon is called the lateral inversion</p>
+                     <p>Mirror Images and Reflection Includes Following Types :</p>
+                     <ol>
+                        <li>Mirror Image of letters :The case is related to a mirror image of letters and numbers. Some letters do not change upon reflection. The letters which are having identical mirror images are A, H, I, M, O, T, U, V, W, X, and Y. Similarly in small letters we have i, l, o, v, w, and x that have the same mirror image as that of their original images</li><br>
+                        <li>Mirror Image of numbers 8 is the only numeral that have the same mirror image as that of its original</li><br>
+                        <li>Shape Mirror Image :The point of an object near the mirror will be always near the mirror image also</li>
+                     </ol>
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./reflection.jpg" alt="" width="540px" height="500px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+Q.1) Choose the alternative which is closely resembles the mirror image of the given combination.
+ figure is available
+A) 1
+B) 2
+C) 3
+D) 4
+Answer: Option d
+
+Q.2) Choose the alternative which is closely resembles the mirror image of the given combination.
+figure is available
+ 
+1
+2
+3
+4
+Answer: Option d
+
+
+Q.3) Choose the alternative which is closely resembles the mirror image of the given combination.
+figure is available
+
+1
+2
+3
+4
+Answer: Option b
+
+Q.4) Choose the alternative which is closely resembles the mirror image of the given combination.
+figure is available
+ 
+1
+2
+3
+4
+Answer: Option c
+
+Q.5) If the mirror is placed on the line XY, then identify the correct mirror image of the given question 
+figure from the answer figures.
+figure is available
+
+1
+2
+3
+4
+Answer: Option D
+Explanation:
+ figure is available
+In the mirror image,
+• The right side of the object becomes the left side
+• The left side of the object becomes the right side
+• The top and bottom sides of the object remain unchanged
+Hence answer figure 4 is correct.
+
+
+
+Q.6) Select the mirror image of the following figure.
+figure is available
+ 
+(A)
+ 
+(B)
+ 
+(C)
+ 
+(D)
+ 
+Correct Answer : A
+
+
+Q.7) If a mirror is placed on a line MN, which of the given answer figures will be the correct image of the question figure?
+figure is available
+ 
+(A) A
+ 
+(B) B
+ 
+(C) C
+ 
+(D) D
+ 
+Correct Answer : C
+
+Q.8) If a mirror is placed on the line MN, then which of the answer figures is the correct image of the given question figure?
+
+figure is available
+	 
+A.	1
+B.	2
+C.	3
+D.	4
+
+CORRECT OPTION: B
+
+Q.9) Choose the correct mirror image of the given figure (X) from amongst the four alternatives.
+figure is available
+1
+2
+3
+4
+Answer: Option C
+
+Q.10) Choose the correct mirror image of the given figure (X) from amongst the four alternatives.
+figure is available
+
+1
+2
+3
+4
+Answer: Option D

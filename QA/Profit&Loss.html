@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit&Loss</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+         body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 490px;
+            height: 330px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        #IF{
+            color: rgb(53, 17, 112);
+            font-weight: 700;
+            border-bottom: 1px dotted rgb(53, 17, 112);
+            width: 165px;
+        }
+        .h{
+            margin-left: -10px;
+        }
+        .ele{
+            margin-left: -39px;
+            margin-bottom: 3px;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 30px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"><img src="./age_logo-removebg-preview (1).png" alt="" width="90px" height="75px"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Average.html"><div class="box">Average</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Percentage.html"><div class="box">Percentage</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Age.html"><div class="box">Ages</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Partnership.html"><div class="box">Partnership</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Ratio&Proportion.html"><div class="box">Ratio & Proportion</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleMaths.html"><div class="box">Simple Maths</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Time&Work.html"><div class="box">Time & Work</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TimeDistanceSpeed.html"><div class="box">Time-Distance-Speed</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TrainProblem.html"><div class="box">Train Problem</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleInterest.html"><div class="box">Simple Interest</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/CompoundInterest.html"><div class="box">Compound Interest</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Profit & Loss</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>The profit is the amount gained by selling an article at a price greater than its cost price.Where, 
+                        the loss is the amount lost by selling an article for less than its cost price.</p>
+                       <p id="IF">Profit and Loss Formula :</p>
+                       <ol>
+                        <li class="h">If the selling price and cost price of a product is given, then the formula for finding the profit or loss is applied. The profit formula is used when the selling price of an item is higher than the cost price of that item. It is mentioned below</li><br>
+                        <ul>
+                            <li class="ele" type="disc">Profit = Selling price (S.P.) - Cost price (C.P.)</li>
+                        </ul><br>
+                        <li class="h">The loss formula is used when the cost price of an item is higher than the selling price of that item. It is mentioned below</li><br>
+                        <ul>
+                            <li class="ele" type="disc">Loss = Cost price (C.P.) - Selling price (S.P.)</li>
+                            <li class="ele" type="disc">Profit percentage (P%) = (Profit /Cost Price) × 100</li>
+                            <li class="ele" type="disc">Loss percentage (L%) = (Loss / Cost price) × 100</li>
+                        </ul>
+                       </ol>
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./profitloss.jpg" alt="" width="540px" height="516px"></div>
+                </div>
+            </div>
+        </div>
+    
+    
+. 
+
+                                                                
+
+. 
+
+                                                                
+                                                                
+
+                                                                                                                        
+</body>
+</html>
+Q.1)  A man buys and  an article for Rs. 100, and sells it for 110. Then the profit percent is ?
+Sol:
+Cost price= Rs.100
+Selling price= Rs.110
+Profit=Selling price - Cost price=110-100=10
+Profit percent=(profit x 100)/cost price
+                         =(10 x 100)/100
+                         = 10%
+Therefore profit percent is 10%
+
+Q.2)  A loss of 5% was suffered by selling  a plot for Rs. 4,085. The cost price of the plot was?
+sol:
+Selling price= Rs.4,085
+Loss=Cost price-selling price
+Cost Price=Loss + selling price
+Loss percent=(Loss x 95)/selling price
+5=(Loss x 95)/4085
+Loss=215
+So, Cost price=Loss + selling price
+                        =215+4085
+                        =4300……it was cost price
+
+Q.3) A bought a calculator for Rs. 520 and sold it with 15% profit on the price he bought. At what price did he sell the calculator?
+sol:
+Cost price= Rs.520, profit percent=15%
+Selling price=?
+Profit=selling price-cost price
+Selling price=profit + cost price
+Now, we have formula Profit percent=(profit x 100)/cost price
+                                15 = (profit x 100)/520
+                           Profit  = 78
+So, Selling price=78+520= Rs.598
+
+Q.4) A dealer sold a mixer for Rs. 420 at a loss of 10%. At what price should he have sold it to gain 10% ?
+sol:
+Selling price= Rs.420
+Loss=Cost price-selling price
+Cost Price=Loss + selling price
+Loss percent=(Loss x 90)/selling price
+10=(Loss x 90)/420
+Loss=46.67
+So, Cost price=Loss + selling price
+              =46.67+420
+              =466.67……it was cost price
+To gain 10% profit=466.67+10%= Rs.513.337
+Therefore at Rs.513.337 he have to sold to gain 10%
+ 
+
+Q.5) A man buys pencils at 10 for Rs. 3 and sells at 8 for Rs. 3. His gain percent is ?
+sol:
+Cost price=Rs.3 for 10 pencils   so, per pencil=0.3
+Sell price=Rs. 3 for 8 pencils   so, Out of 10 he sold 8, so remaining pencils are 2
+Gain=2 x per pencil price = Rs 0.6
+Gain percent=(gain x 100)/cost price
+                       =(0.6 x 100)/ 3
+                       =20%

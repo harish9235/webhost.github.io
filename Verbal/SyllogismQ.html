@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyllogismQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Statements: Some actors are singers. All the singers are dancers. <br>
+                        Conclusions:1.	Some actors are dancers. <br>
+                                    2.	No singer is actor present</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Only conclusion I follows</li>
+                    <li class="opt">Only conclusion II follows</li>
+                    <li class="opt">Either I or II follows</li>
+                    <li class="opt">Neither I nor II follows</li>
+                    <li class="opt">Both I and II follow</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <img src="./sy1ex.png" alt="">
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Statements: All buildings are chalks. No chalk is toffee. <br>
+                        Conclusions : <br>
+                        1.	No building is toffee <br>
+                        2.	All chalks are buildings
+                    </div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Only conclusion I follows</li>
+                    <li class="opt">Only conclusion II follows</li>
+                    <li class="opt">Either I or II follows</li>
+                    <li class="opt">Neither I nor II follows</li>
+                    <li class="opt">Both I and II follow</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <img src="./sy2ex.png" alt="">
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Statements: Some Cats are Rats. All bats are tables. All Rats are Bats. <br>
+                        Conclusion: <br>
+                        I. Some Cats are bats <br>
+                        II. All bats are rats <br>
+                        III. All tables are cats <br>
+                        IV. All bats are cats</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Only conclusion I follows</li>
+                    <li class="opt">Only conclusion II follows</li>
+                    <li class="opt">Either I or II follows</li>
+                    <li class="opt">Neither I nor II follows</li>
+                    <li class="opt">Both I and II follow</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                    <img src="./sy3ex.png" alt="">
+                    <p>Clearly, from the diagram Conclusion I is true</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Statements: Most CPUs are keyboards. No keyboard is a Mouse. All Mouses are CPU. <br>
+                        Conclusion: <br>
+                        I. Some keyboards are CPU <br>
+                        II. All CPU’s are Mouse <br>
+                        III. No Mouse is a keyboard <br>
+                        IV. Some Mouse are keyboard</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Only conclusion I follows</li>
+                    <li class="opt">Only conclusion II follows</li>
+                    <li class="opt">Either I or II follows</li>
+                    <li class="opt">Neither I nor II follows</li>
+                    <li class="opt">Both I and II follow</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <img src="./sy4ex.png" alt="">
+                </div>
+            </div><hr>
+            <div id="q5"><br>
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Statements: Samosas are Jalebi. All Jalebis are Tikki. All Tikkis are Barfi <br>
+                        Conclusion: <br>
+                        I. All Jalebis are Barfi <br>
+                        II. All Tikkis are Samosas <br>
+                        III. All Samosas are Barfi <br>
+                        IV. All Barfi are Jalebi</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Only conclusion I follows</li>
+                    <li class="opt">Only conclusion II follows</li>
+                    <li class="opt">Either I or II follows</li>
+                    <li class="opt">Neither I nor II follows</li>
+                    <li class="opt">Both I and II follow</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>Clearly from the diagram, I and III are true</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) Statements: Some actors are singers. All the singers are dancers.
+Conclusions:1.	Some actors are dancers.
+            2.	No singer is actor.
+A) Only (1) conclusion follows
+B) Only (2) conclusion follows
+C) Either (1) or (2) follows
+D) Neither (1) nor (2) follows
+E) Both (1) and (2) follow
+Answer: Option A
+Explanation:figure available
+
+Q.2) Statements: All buildings are chalks. No chalk is toffee.
+Conclusions:
+1.	No building is toffee
+2.	All chalks are buildings.
+Only (1) conclusion follows
+Only (2) conclusion follows
+Either (1) or (2) follows
+Neither (1) nor (2) follows
+Both (1) and (2) follow
+Answer: Option A
+Explanation: figure available
+
+Q.3) Statements: Some Cats are Rats. All bats are tables. All Rats are Bats.
+Conclusion:
+I. Some Cats are bats
+II. All bats are rats
+III. All tables are cats
+IV. All bats are cats
+Only I & II follow
+Only II follows
+Only I & IV follow
+None of these
+ANSWER: Option D
+Explanation: figure is available
+Clearly, from the diagram Conclusion I is true.
+
+q.4) Statements: Most CPUs are keyboards. No keyboard is a Mouse. All Mouses are CPU.
+Conclusion:
+I. Some keyboards are CPU
+II. All CPU’s are Mouse
+III. No Mouse is a keyboard
+IV. Some Mouse are keyboard
+Only I follows
+Only II and III follow
+Only I and III follow
+Only II follows
+Answer & Explanation
+Answer Key: C
+figure available
+
+Q.5)Statements: Samosas are Jalebi. All Jalebis are Tikki. All Tikkis are Barfi
+Conclusion:
+I. All Jalebis are Barfi
+II. All Tikkis are Samosas
+III. All Samosas are Barfi
+IV. All Barfi are Jalebi
+Only I and II follow
+Only I and III follow
+Only II and III follow
+All follow
+Answer: B
+Answer Key: 2   
+figure available   Clearly from the diagram, I and III are true.
+
+Q.6)Statements: All cars are cats. All fans are cats.
+Conclusions:
+I.All cars are fans.
+II.Some fans are cars.
+Only (I) conclusion follows
+Only (II) conclusion follows
+Either (I) or (II) follows
+Neither (I) nor (II) follows
+Both (I) and (II) follow
+Answer: Option D
+Explanation: figure is available
+
+
+Q.7)Statements: Some mangoes are yellow. Some Tixo are mangoes.
+Conclusions:
+I.	Some mangoes are green.
+II.	Tixo is a yellow.
+Only (I) conclusion follows
+Only (II) conclusion follows
+Either (I) or (II) follows
+Neither (I) nor (II) follows
+Both (I) and (II) follow
+Answer: Option D
+Explanation: figure is available
+
+Q.8) Statements: All buildings are chalks. No chalk is toffee.
+Conclusions:
+I.	No building is toffee
+II.	All chalks are buildings.
+Only (I) conclusion follows
+Only (II) conclusion follows
+Either (I) or (II) follows
+Neither (I) nor (II) follows
+Both (I) and (II) follow
+Answer: Option A
+
+Explanation: figure is available
+
+
+Q.9) Statements: Most CPUs are keyboards. No keyboard is a Mouse. All Mouses are CPU.
+Conclusion:
+I. Some keyboards are CPU
+II. All CPU’s are Mouse
+III. No Mouse is a keyboard
+IV. Some Mouse are keyboard
+1. Only I follows
+2. Only II and III follow
+3. Only I and III follow
+4. Only II follows
+Answer & Explanation
+Answer Key: 3  figure available
+Clearly from the diagram, I and III are true.
+
+
+
+Q.10) Statements: Some messages are whatsapp. All Hikes are whatsapp. All whatsapp are facebook.
+Conclusion:
+I. Some facebook are messages
+II. All hikes are facebook
+III. Some messages are hikes
+IV. Some message are facebook
+1. All follow
+2. Only I, II and III follow
+3. Only I, II and IV follow
+4. Only III and IV follow
+Answer & Explanation
+Answer Key: 3
+figure is available 
+Clearly from the diagram I, II and IV are true-->

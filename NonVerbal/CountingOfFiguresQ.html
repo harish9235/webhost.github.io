@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountingOfFiguresQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">In question below shown, count the number of triangle and squares</div>
+                    <img src="./cf1q.png" alt="" class="qimg">
+                </div>
+
+                <ol type="A" class="op">
+                    <li class="opt">26 triangles, 5 squares</li>
+                    <li class="opt">28 triangles, 5 squares</li>
+                    <li class="opt">26 triangles, 6 squares</li>
+                    <li class="opt">28 triangles, 6 squares</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>The simplest triangle is shown in figure is 12 and another is IBO, BDO, DGO, GIO, ABO,CBD, DEO, IBD,BDG, DGI, GIB, ACO and COE and ACE is the total no of triangle are 12+14=26</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l"> How many triangles in the figure (?)</div>
+                    <img src="./cf2q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">16</li>
+                    <li class="opt">15</li>
+                    <li class="opt">8</li>
+                    <li class="opt">10</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <img src="./cf2ex.png " alt="" class="qimg">
+                    <p>in the figure the 8 triangle is shown easily and another is COD , DOB, BOA, AOC, ACD, BDC,ABC, ABD so that total no. of triangle is 8+8=16</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">How many triangle is in the given figure (?)</div>
+                    <img src="./cf3q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">16</li>
+                    <li class="opt">15</li>
+                    <li class="opt">8</li>
+                    <li class="opt">10</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                   <img src="./cf3ex.png" alt="" class="qimg">
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">How many triangles are in the figure (?)</div>
+                    <img src="./cf4q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">16</li>
+                    <li class="opt">15</li>
+                    <li class="opt">8</li>
+                    <li class="opt">10</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <img src="./cf4ex.png" alt="" class="qimg">
+                    <p>The triangle 6 shown in figure and another is ADB,ACB, BDC,ADC, so that total number of triangle is 10</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">How many squares in the figure (?)</div>
+                    <img src="./cf5q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">27</li>
+                    <li class="opt">15</li>
+                    <li class="opt">20</li>
+                    <li class="opt">16</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>from the above figure counting the squares and we get the 27 squares</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) In question below shown, count the number of triangle and squares. 
+ figure is available
+(A) 26 triangles, 5 squares
+(B) 28 triangles, 5 squares
+(C) 26 triangles,6 squares
+(D) 28 triangles, 6 squares
+
+Correct Answer : A
+Explanation :
+The simplest triangle is shown in figure is 12 and another is IBO, BDO, DGO, GIO, ABO,CBD, DEO, IBD,BDG, DGI, GIB, ACO and COE and ACE is the total no of traingle are 12+14=26
+
+Q.2) How many triangles in the figure?
+figure is available
+(A) 16
+(B) 14
+(C) 8
+(D) 12
+Correct Answer : A
+Explanation : figure is available
+in the figure the 8 triangle is shown easily and another is COD , DOB, BOA, AOC, ACD, BDC,ABC, ABD so that total no. of triangle is 8+8=16
+
+
+Q.3) How many triangle is in the given figure?
+figure is available
+(A) 10
+(B) 12
+(C) 14
+(D) 16
+Correct Answer : A
+Explanation : figure is available
+ 
+Q.4) How many triangles are in the figure?
+figure is available
+(A) 10
+(B) 8
+(C) 12
+(D) 11
+Correct Answer : A
+Explanation :figure is available
+The triangle 6 shown in figure and another is ADB,ACB, BDC,ADC, so that total number of triangle is 10
+ 
+
+Q.5) How many squares in the figure?
+figure is available
+(A) 16
+(B) 18
+(C) 25
+(D) 27
+Correct Answer : D
+Explanation :
+from the above figure counting the squares and we get the 27 squares.
+
+Q.6) Find the number of triangles?
+figure is available
+(A) 29
+(B) 25
+(C) 28
+(D) 24
+Correct Answer : C
+Explanation :
+in the above figure it consist 8 triangle so that no. of square is 3 so that total no. of triangle is 8 ✖ 3=24
+and 4 triangle shown in question figure so that answer is 24+4=28  
+
+Q.7) Find the number of rectangles?
+figure is available
+(A) 19
+(B) 28
+(C) 27
+(D) 36
+Correct Answer : D
+Explanation :figure is available
+First mark each rectangles 1, 2 and 3 after we can cube of 1 +8+27=36 we get the answer
+ 
+Q.8) Find the number of triangles in the given figure.
+figure is available
+(A) 8
+(B) 15
+(C) 20
+(D) 25
+Correct Answer : B
+
+Q.9) What is the number of straight lines in the following figure?
+figure is available
+A) 10
+B) 12
+C) 13
+D) 17
+Answer: (B)
+Solution: label the figure as shown below:
+figure is available 
+clearly in this figure:
+There are 3 horizontal lines namely AG, BF, and CE.
+There are 3 vertical lines namely AC, HD, and GE.
+There are 6 slanting lines namely AD, AE, GC, GD, CD, AND CE.
+Thus, There are 3+3+6=12  straight lines in all.
+
+Q.10) How many Triangles are there in the following figure?
+figure is available
+A) 6
+B) 10
+C) 11
+D) 12
+Answer: (D)
+Solution: The figure may be labeled As shown below:
+figure is available
+The simplest triangle is ABE, BEF, EFC, CDE, AND AED i.e. 5 In number.
+The Triangles are composed of two components each are ABF, BCE, ACE, and ABD i.e. 4 In number.
+There is only one Triangle ABC  composed of five components. Thus 5+4+2+1 =12 Triangles in the figure.-->

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassificationQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Pick the odd word from the given list</div>
+                </div>
+
+                <ol type="A" class="op">
+                    <li class="opt">Lamprey</li>
+                    <li class="opt">Rhea</li>
+                    <li class="opt">Bass</li>
+                    <li class="opt">Trout</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>All the others except Rhea, are names of fishes</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Pick the odd one out from the given pair of words</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Peace:Fight</li>
+                    <li class="opt">Rough:mooth</li>
+                    <li class="opt">Coward:Timid</li>
+                    <li class="opt">Taciturn: Talkative</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>Except for pair C, all of the words are antonyms. The terms in option C, on the other hand, are synonyms</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Find the odd number in the below list.</div>
+                    <img src="./an3q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">7141</li>
+                    <li class="opt">7521</li>
+                    <li class="opt">8154</li>
+                    <li class="opt">7171</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                   <p>All the other numbers, except for option C, start with 7 and ends with 1</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Choose the word which is different from the rest</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">curd</li>
+                    <li class="opt">Butter</li>
+                    <li class="opt">Oil</li>
+                    <li class="opt">Cheese</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>All except Oil are products obtained from milk</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Choose the word which is different from the rest.</div>
+                    <img src="./an5q.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Sharp</li>
+                    <li class="opt">Thin</li>
+                    <li class="opt">Large</li>
+                    <li class="opt">Small</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>All except Sharp are related to dimension</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) Pick the odd word from the given list.
+A.Lamprey
+B.Rhea
+C.Bass
+D.Trout
+Answer: B.Rhea.
+Explanation:-
+All the others except Rhea, are names of fishes. 
+
+Q.2) Pick the odd one out from the given pair of words. 
+A.Peace:Fight
+B.Rough:mooth
+C.Coward:Timid
+D. Taciturn: Talkative
+Answer: C.Coward:Timid
+Explanation:-
+Except for pair C, all of the words are antonyms. The terms in option C, on the other hand, are synonyms.
+
+Q.3) Find the odd number in the below list.
+A. 7121
+B. 7061
+C. 8154
+D. 7391
+Answer: C. 8154
+Explanation:- 
+All the other numbers, except for option C, start with 7 and ends with 1.
+
+Q.4) Choose the word which is different from the rest.
+Curd
+Butter
+Oil
+Cheese
+Cream
+Answer: Option C
+Explanation:
+All except Oil are products obtained from milk.
+
+Q.5) Choose the word which is different from the rest.
+Tall
+Huge
+Thin
+Sharp
+Small
+Answer: Option D
+Explanation:
+All except Sharp are related to dimension.
+
+Q.6) Choose the word which is different from the rest.
+Dagger
+Hammer
+Knife
+Sword
+Blade
+Answer: Option B
+Explanation:
+All except Hammer are sharp-edged and have a cutting action.
+
+Q.7) Choose the word which is different from the rest.
+Calendar
+Year
+Date
+Month
+Day
+Answer: Option A
+Explanation:
+All others are parts of a calendar.
+
+Q.8) Choose the word which is different from the rest.
+Biscuits
+Chocolate
+Cake
+Bread
+Pastry
+Answer: Option B
+Explanation:
+All except Chocolate are baked items.
+
+Q.9) Find the odd one out
+ A) Flower : Petal
+ B) Circle : Arc
+ C) Cover : Page
+ D) Chair : Leg
+
+ Answer:C)Cover: Page
+
+Explanation:
+In all other pairs, second is a part of the first.
+
+Q.10) Three of the following four are alike in a certain way and hence form a group. Which is the one that does not belong to that group?
+ A) Rice
+ B) Wheat
+ C) Barley
+ D) Mustard
+
+ Answer: D) Mustard
+
+Explanation:
+Except Mustard each belongs to the same categeory, viz foodgrains. Mustard is an oilseed.-->

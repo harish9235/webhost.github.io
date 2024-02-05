@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloodRelationQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">A man pointing to a photograph says, 'The lady in the photograph is my nephew's maternal grandmother." How is the lady in the photograph related to the man's sister who has no other sister ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Sister-in-law</li>
+                    <li class="opt">Mother</li>
+                    <li class="opt">Mother-in-law</li>
+                    <li class="opt">Cousin</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>Clearly, the lady is the grandmother of man's sister's son i.e.. the mother of the mother of man's sister's son 
+                        i.e., the mother of man's sister. So, the lady is man's mother</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Pointing to a woman, a man said, "Her father is the only son of my father." How is the man related to the woman ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Father</li>
+                    <li class="opt">Brother-in-law</li>
+                    <li class="opt">Brother</li>
+                    <li class="opt">Son</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>The man said, "Her father is the only son of my father."Then the woman's father and the man's is the same=> The woman and the man are brother and sisters.Hence, the man is the brother of the woman</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Introducing a man to her husband , a woman said "His brother's father is the only son of my grandfather". How is the woman related to this man?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Sister-in-law</li>
+                    <li class="opt">Sister</li>
+                    <li class="opt">Aunt</li>
+                    <li class="opt">Daughter</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                    <p>Only son of woman's grandfather - woman's father;  Man's brother's father - Man's father So, man's father is woman's father i.e woman is the man's sister</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">A is father of C and D is son of B. E is brother of A. If C is sister of D, how is B related to E ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">daughter-in-law</li>
+                    <li class="opt">Sister</li>
+                    <li class="opt">Aunt</li>
+                    <li class="opt">Sister-in-law</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>A is father of C and C is sister of D. So, A is father of D. But D is son of B. So, B is the mother of D and wife of K Also. E is the brother of A So, B is the sister-in-law of E</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">A is the brother of B. B is the brother of C. D is the father of A. Based on these three statements, which of the following statements cannot be definitely true ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">B is the brother of A.</li>
+                    <li class="opt">B is the son of D</li>
+                    <li class="opt">C is the brother of A</li>
+                    <li class="opt">A is the brother of C</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>A is the brother of B and B is the brother of C. So, C may be the brother or sister of A</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--1)	A man pointing to a photograph says, 'The lady in the photograph is my nephew's maternal grandmother." How is the lady in the photograph related to the man's sister who has no other sister ?  
+ A) Cousin
+ B) Sister-in-law
+ C) Mother
+ D) Mother-in-law
+
+ Answer & ExplanationAnswer: C) Mother
+
+Explanation:
+
+Clearly, the lady is the grandmother of man's sister's son i.e.. the mother of the mother of man's sister's son 
+i.e., the mother of man's sister. So, the lady is man's mother.  
+
+2)	Pointing to a woman, a man said, "Her father is the only son of my father." How is the man related to the woman?
+ A) Father
+ B) Brother
+ C) Uncle
+ D) Brother-in-law
+
+    Answer & ExplanationAnswer: B) Brother
+
+Explanation:The man said, "Her father is the only son of my father."Then the woman's father and the man's is the same=> The woman and the man are brother and sisters.Hence, the man is the brother of the woman
+
+3)	Introducing a man to her husband , a woman said "His brother's father is the only son of my grandfather". How is the woman related to this man?
+ A) Mother
+ B) Aunt
+ C) Sister
+ D) Aunt
+
+ Answer & ExplanationAnswer: C) Sister
+
+Explanation:Only son of woman's grandfather - woman's father;  Man's brother's father - Man's father So, man's father is woman's father i.e woman is the man's sister.
+
+4)	A is father of C and D is son of B. E is brother of A. If C is sister of D, how is B related to E ? 
+ A) Daughter
+ B) Brother
+ C) Husband
+ D) Sister-in-law
+
+ Answer & ExplanationAnswer: D) Sister-in-law
+
+Explanation:A is father of C and C is sister of D. So, A is father of D. But D is son of B. So, B is the mother of D and wife of K Also. E is the brother of A So, B is the sister-in-law of E.
+
+
+Q.5) A is the brother of B. B is the brother of C. D is the father of A. Based on these three statements, which of the following statements cannot be definitely true ?
+ A) B is the brother of A.
+ B) B is the son of D.
+ C) A is the brother of C.
+ D) C is the brother of A.
+
+ Answer & ExplanationAnswer: D) C is the brother of A.
+
+Explanation:A is the brother of B and B is the brother of C. So, C may be the brother or sister of A-->

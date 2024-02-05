@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogicalSequenceQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Arrange the words given below in a meaningful sequence. <br>
+                        1. Leaf	2. Fruit 3. Stem 4. Root 5. Flower</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3, 4, 5, 1, 2</li>
+                    <li class="opt">4, 3, 1, 5, 2</li>
+                    <li class="opt">4, 1, 3, 5, 2</li>
+                    <li class="opt">4, 3, 1, 2, 5</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>The correct order is :
+                        4.Root	 3.Stem	1.Leaf	5.Flower  2.Fruit</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Arrange the words given below in a meaningful sequence. <br>
+                        1. Infant	2. Old	3. Adult  4. Adolescent	5. Child</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3, 4, 5, 1, 2</li>
+                    <li class="opt">4, 3, 1, 5, 2</li>
+                    <li class="opt">1, 5, 4, 3, 2</li>
+                    <li class="opt">4, 3, 1, 2, 5</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>The correct order is :1.Infant	5.Child	 4.Adolescent  3.Adult  2.Old</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Arrange the words given below in a meaningful sequence. <br>
+                        1. Income	2. Status	3. Education 4. Well-being	5. Job</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3, 4, 5, 1, 2</li>
+                    <li class="opt">3, 5, 1, 2, 4</li>
+                    <li class="opt">1, 5, 4, 3, 2</li>
+                    <li class="opt">4, 3, 1, 2, 5</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                    <p>The correct order is : 3.Education  5.Job  1.Income	2.Status  4.Well-being</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Arrange the words given below in a meaningful sequence. <br>
+                        1.Presentation  2.Recommendation  3. Arrival  4.Discussion  5.Introduction</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3, 4, 5, 1, 2</li>
+                    <li class="opt">3, 5, 1, 2, 4</li>
+                    <li class="opt">1, 5, 4, 3, 2</li>
+                    <li class="opt">3, 5, 1, 4, 2</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>The correct order is :3.Arrival   5.Introduction   1.Presentation   4.Discussion  2.Recommendation</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Arrange the words given below in a meaningful sequence. <br>
+                        1. Poverty   2. Population   3. Death    4. Unemployment    5. Disease </div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3, 4, 5, 1, 2</li>
+                    <li class="opt">3, 5, 1, 2, 4</li>
+                    <li class="opt">2, 4, 1, 5, 3</li>
+                    <li class="opt">3, 5, 1, 4, 2</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>The correct order is :2.Population    4.Unemployment    1.Poverty     5.Disease   3.Death</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) Arrange the words given below in a meaningful sequence.
+1. Leaf	2. Fruit 3. Stem 4. Root 5. Flower	 
+a) 3, 4, 5, 1, 2
+b) 4, 3, 1, 5, 2
+c) 4, 1, 3, 5, 2
+d) 4, 3, 1, 2, 5
+Answer: Option b
+Explanation:
+The correct order is :
+4.Root	3.Stem	1.Leaf	5.Flower  2.Fruit
+ 
+Q.2)Arrange the words given below in a meaningful sequence.
+1. Infant	2. Old	3. Adult  4. Adolescent	5. Child	 
+A) 5, 4, 3, 2, 1
+B) 3, 4, 2, 1, 5
+C) 2, 3, 4, 5, 1
+D) 1, 5, 4, 3, 2
+Answer: Option  D
+Explanation:
+The correct order is :
+1.Infant	5.Child	4.Adolescent  3.Adult  2.Old
+
+Q.3) Arrange the words given below in a meaningful sequence.
+1. Income	2. Status	3. Education 4. Well-being	5. Job	 
+A) 3, 1, 5, 2, 4
+B) 1, 3, 2, 5, 4
+C) 1, 2, 5, 3, 4
+D) 3, 5, 1, 2, 4
+Answer: Option D
+Explanation:
+The correct order is :
+3.Education  5.Job	 1.Income	2.Status  4.Well-being
+
+Q.4)Arrange the words given below in a meaningful sequence.
+1.Presentation  2.Recommendation  3. Arrival  4.Discussion  5.Introduction
+ A) 5, 3, 4, 1, 2
+ B) 3, 5, 4, 2, 1
+ C) 3, 5, 1, 4, 2
+ D) 5, 3, 1, 2, 4
+
+Answer & ExplanationAnswer: C) 3, 5, 1, 4, 2
+Explanation:
+The correct order is :
+3.Arrival   5.Introduction   1.Presentation   4.Discussion  2.Recommendation
+
+ Q.5) Arrange the words given below in a meaningful sequence.
+ 1. Poverty   2. Population   3. Death    4. Unemployment    5. Disease 
+  A) 2, 3, 4, 5, 1
+  B) 3, 4, 2, 5, 1
+  C) 2, 4, 1, 5, 3
+  D) 1, 2, 3, 4, 5
+ 
+  Answer: C) 2, 4, 1, 5, 3
+ 
+ Explanation: The correct order is :
+ 2.Population    4.Unemployment    1.Poverty     5.Disease   3.Death
+
+Q.6) Arrange the words given below in a meaningful sequence.
+1. Poverty   2. Population   3. Death    4. Unemployment    5. Disease 
+     A) 2, 3, 4, 5, 1
+     B) 3, 4, 2, 5, 1
+     C) 2, 4, 1, 5, 3
+     D) 1, 2, 3, 4, 5
+    
+     Answer & ExplanationAnswer: C) 2, 4, 1, 5, 3
+    
+Explanation: The correct order is :
+2.Population    4.Unemployment    1.Poverty     5.Disease   2.Death
+
+ Q.7) Arrange the words given below in a meaningful sequence.
+1.Caste  2. Family  3. Newly married Couple  4.Clan  5.Species
+     A) 2, 3, 1, 4, 5
+     B) 3, 4, 5, 1, 2
+     C) 3, 2, 1, 4, 5
+     D) 4, 5, 3, 2, 1
+    
+     Answer & ExplanationAnswer: C) 3, 2, 1, 4, 5
+    
+    Explanation:
+    
+    The correct order is :   
+    3.Newly married Couple     2.Family    1.Caste    4.Clan    5.Species
+                    
+                          
+    Q.8) Arrange the words given below in a meaningful sequence.
+1.Elephant  2.Cat  3.Mosquito  4.Tiger    5. Whale 
+A) 5, 3, 1, 2, 4
+B) 3, 2, 4, 1, 5
+C) 1, 3, 5, 4, 2
+D) 2, 5, 1, 4, 3
+                          
+Answer & ExplanationAnswer: B) 3, 2, 4, 1, 5
+                          
+Explanation:The correct order is :
+3.Mosquito    2.Cat    4.Tiger   1.Elephant   5.Whale
+
+Q.9) Example 4: Arrange the given words in a logical and meaningful order.
+1. Travel  2. Destination 3. Payment 4. Berth/Seat number 5. Reservation 6. Availability of Berth/Seat for reservation
+(a) 6, 2, 5, 4, 3, 1   (b) 5, 3, 4, 6, 1, 2
+(c) 2, 6, 3, 5, 4, 1   (d) 1, 2, 5, 4, 3, 6
+Solution:  (c) From the given words, it is clear that in order to perform a journey, first, a destination is to be 
+identified, secondly availability of berth/seat is ascertained, followed by payment for reservation. 
+As a result, berth is allotted and traveling is completed.
+
+Q.10) If the following five words are arranged in alphabetical order, then which word will come in the middle ?
+(a) Electric       (b)Elector  (c) Electrode   (d)Elect (e) Electron
+Solution:  (a) Arranging the words in alphabetical order we have
+Elect, Elector, Electric, Electrode, Electron.
+Hence, Electric will come in middle-->

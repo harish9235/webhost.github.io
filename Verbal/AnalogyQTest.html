@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeQTest</title>
+    <style>
+        body{
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+        }
+        #parent{
+            width: 100%;
+        }
+        
+        .header{
+            width: 100%;
+            height: 45px;
+            position: sticky;
+            top: 0;
+            background-color: rgb(247, 248, 253);
+            display: flex;
+            align-items: center;
+            padding: 4px;
+        }
+        .testLogo{
+            margin-left: 30px;
+        }
+        .head{
+            font-size: 27px;
+            font-family: "poppins",sans-serif;
+            font-weight: 750;
+            margin-left: 20px;
+            color: rgb(32, 23, 56);
+            /*text-shadow: 1px 1px 2px rgb(83, 129, 150);*/
+            /*border: 1px solid rgb(104, 135, 235);*/
+            border-radius: 6px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        span{
+            color: rgb(49, 49, 190);
+        }
+        .content{
+            width: 80px;
+            height: 23px;
+            border: 1px solid rgb(113, 43, 226);
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 550;
+            color: rgb(113, 43, 226);
+            margin-left: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .content:hover{
+            background-color: rgb(113, 43, 226);
+            color: white;
+        }
+        .topics{
+            position: sticky;
+            top: 53px;
+            width: 100%;
+            height: 28px;
+            background-color: rgb(233, 237, 254);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .qBox{
+            width: 100px;
+            height: 16px;
+            font-size: 11px;
+            /*font-weight: 540;*/
+            color: rgb(83, 82, 82);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /*border: 1px solid;*/
+            border-right: 1px solid rgb(168, 167, 167);
+        }
+        .qBox:hover{
+            background-color: rgb(206, 217, 253);
+            border-radius: 11px;
+            height: 21px;
+            border: none;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #frm{
+            margin-top:5px;
+        }
+        .que{
+            width: 800px;
+            border: 1px solid rgb(237, 235, 235);
+            margin-top: 5px;
+            margin-left: 75px;
+            border-radius: 3px;
+            box-shadow: 0px 0px 1px 1px rgb(251, 240, 255);
+            
+        }
+        .question{
+           /* margin-top: 2px;*/
+            width: 780px;
+            /*margin-left: 75px;*/
+            background-color: white;
+            padding: 10px;
+            font-size: 13px;
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(54, 51, 51);
+            /*border-bottom-width: ;*/
+            border-bottom: 1px solid rgb(221, 225, 232);
+           
+            /*border: 1px solid;*/
+        }
+        p{
+           line-height: 25px;
+           /*border-bottom: 1px solid rgb(206, 197, 197);*/
+        }
+        label{
+            display: block;
+            width: 50%;
+            margin-bottom: 6px;
+            border: 1px solid rgb(238, 235, 235);
+            border-radius: 5px;
+            line-height: 20px;
+        }
+        label:hover{
+            border: 1px solid rgb(178, 177, 177);
+            border-radius: 5px;
+            background-color: rgb(249, 249, 249);
+        }
+        input{
+            accent-color: red;
+            cursor: pointer;
+        }
+        .c{
+            accent-color: green;
+            cursor: pointer;
+        }
+        .sb{
+            display: block;
+            width: 120px;
+            margin-top: 20px;
+            margin-left: 110px;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background-color: #36bb3a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-family:Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            box-shadow: 1px 2px 2px rgb(193, 197, 198);
+        }
+        .sb:hover{
+            background-color: rgb(42, 215, 59);
+            box-shadow: 0px 0px 2px 1px  rgb(152, 157, 158);
+        }
+        .result{
+            color: black;
+            width: 50%;
+            height: 30px;
+            text-align: center;
+            background-color: white;
+            margin-left: 300px;
+            margin-top: -70px;
+            margin-bottom: 100px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            padding-top: 7px;
+            border-radius: 3px;
+            box-shadow: 1px 1px 2px 1px rgb(167, 172, 172);
+        }
+        .side{
+            margin-left: 20px;
+            width: 250px;
+            height: 620px;
+            background-color: white;
+            margin-top: 5px;
+            padding-left: 35px;
+            border: 1px solid rgb(236, 233, 233);
+            box-shadow: 0px 0px 1px 1px rgb(251, 240, 255);
+            /*display: flex;
+            justify-content: center;*/
+        }
+        .verbalTest{
+            display: block;
+            width: 185px;
+            height: 280px;
+            /*border: 1px solid;*/
+            margin-top: 15px;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(55, 55, 55);
+            line-height: 23px;
+            /*margin-left: 15px;*/
+        }
+        .NonverbalTest{
+            line-height: 23px;
+            display: block;
+            width: 185px;
+            height: 280px;
+            /*border: 1px solid;*/
+            margin-top: 15px;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(55, 55, 55);
+            /*margin-left: 15px;*/
+        }
+        .vhead{
+            border-bottom: 1px solid rgb(180, 179, 179);
+            background-color: #f8fcfb;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(67, 78, 108);
+        }
+        .vBox:hover{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="header">
+            <div class="testLogo"><img src="./testLogo.jpg" alt="" width="38px" height="36px"></div>
+            <div class="head">Mock Test : <span>Ages</span></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="content">Home</div></a>
+        </div>
+        <div class="topics">
+            <a href=""><div class="qBox">Average</div></a>
+            <a href=""><div class="qBox">Percentage</div></a>
+            <a href=""><div class="qBox">Profit & Loss</div></a>
+            <a href=""><div class="qBox">Partnership</div></a>
+            <a href=""><div class="qBox">Ratio & Proportion</div></a>
+            <a href=""><div class="qBox">Simple Maths</div></a>
+            <a href=""><div class="qBox">Time & Work</div></a>
+            <a href=""><div class="qBox" style="width: 110px;">Time-Distance-Speed</div></a>
+            <a href=""><div class="qBox">Train Problem</div></a>
+            <a href=""><div class="qBox">Simple Interest</div></a>
+            <a href=""><div class="qBox">Compound Interest</div></a>
+        </div>
+        <div class="main">
+            <div class="que">
+                <form id="frm">
+                    <div class="question">
+                        <p>Q.1) A person age is 2/5 of his age of his mother after 10 years he will be one half of age of his mother. How old is mother at present</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q1" value="a" class="c"> 60 Years</label> 
+                            <label for=""><input type="radio" name="q1" value="b"> 30 Years</label>
+                            <label for=""><input type="radio" name="q1" value="c"> 40 Years</label>
+                            <label for=""><input type="radio" name="q1" value="d"> 45 Years</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.2) Akshay is 7 Years younger than Rahul and their ages are in the ratio 8:10, What is age of Akshay</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q2" value="a"> 30 Years</label>
+                            <label for=""><input type="radio" name="q2" value="b" class="c"> 28 Years</label>
+                            <label for=""><input type="radio" name="q2" value="c"> 40 Years</label>
+                            <label for=""><input type="radio" name="q2" value="d"> 45 Years</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.3) If sum of age of Sanket and Rahul is 60, after 4 years what is sum of ages</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q3" value="a"> 60 Years</label>
+                            <label for=""><input type="radio" name="q3" value="b"> 28 Years</label>
+                            <label for=""><input type="radio" name="q3" value="c" class="c"> 68 Years</label>
+                            <label for=""><input type="radio" name="q3" value="d"> 55 Years</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.4) Kanna age after 10 years will be 4 times his age of 5 years back, what is the present age of Kanna</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q4" value="a"> 3 Years</label>
+                            <label for=""><input type="radio" name="q4" value="b"> 8 Years</label>
+                            <label for=""><input type="radio" name="q4" value="c"> 4 Years</label>
+                            <label for=""><input type="radio" name="q4" value="d" class="c"> 6.5 Years</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q.5) X is two years old than Y who is twice as old as Z. The total ages of X, Y, Z be 37. How old is Y ?</p>
+                        <div class="ans">
+                            <label for=""><input type="radio" name="q5" value="a"> 20 Years</label>
+                            <label for=""><input type="radio" name="q5" value="b"> 18 Years</label>
+                            <label for=""><input type="radio" name="q5" value="c"> 22 Years</label>
+                            <label for=""><input type="radio" name="q5" value="d" class="c"> 10 Years</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="sb" id="sbb">Submit</button>
+                </form>
+                <div class="result" id="result"></div>
+            </div>
+            <div class="side">
+                <div class="verbalTest">
+                    <div class="vhead">Verbal Reasoning | Mock Test</div>
+                    <a href=""><div class="vBox">Alpha Numeric</div></a>
+                    <a href=""><div class="vBox">Analogy</div></a>
+                    <a href=""><div class="vBox">Blood Relation</div></a>
+                    <a href=""><div class="vBox">Coding-Decoding</div></a>
+                    <a href=""><div class="vBox">Data Sufficiency</div></a>
+                    <a href=""><div class="vBox">Direction Sense</div></a>
+                    <a href=""><div class="vBox">Logical Sequence of Words</div></a>
+                    <a href=""><div class="vBox">Seating Arrangement</div></a>
+                    <a href=""><div class="vBox">Statement & Conclusion</div></a>
+                    <a href=""><div class="vBox">Syllogism</div></a>
+                    <a href=""><div class="vBox">Venn Diagram</div></a>
+                </div>
+                <div class="NonverbalTest">
+                    <div class="vhead">Non-Verbal Reasoning | Mock Test</div>
+                    <a href=""><div class="vBox">Analogy</div></a>
+                    <a href=""><div class="vBox">Classification</div></a>
+                    <a href=""><div class="vBox">Counting of Figures</div></a>
+                    <a href=""><div class="vBox">Cubes-Dice</div></a>
+                    <a href=""><div class="vBox">Dot Situation</div></a>
+                    <a href=""><div class="vBox">Matrix Figure</div></a>
+                    <a href=""><div class="vBox">Mirror Images</div></a>
+                    <a href=""><div class="vBox">Paper Folding</div></a>
+                    <a href=""><div class="vBox">Pattern Matching</div></a>
+                    <a href=""><div class="vBox">Rule Detection</div></a>
+                    <a href=""><div class="vBox">Series</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        /*You can get the name attribute of the radio which is clicked and depending on this we will loop through all the radio button with that name and disable radio button which are not checked.*/
+        document.querySelectorAll("input[type=radio]").forEach(function (el) {
+  el.addEventListener('click', function () {
+    //getting name attribute if radio which is clicked
+    var name = el.getAttribute('name');
+    //loop only through those radio where name is same.
+    document.querySelectorAll('input[name="' + name + '"]').forEach(function (el) {
+      if (el.matches(":not(:checked)")) {
+        el.setAttribute('disabled', 'disabled');
+      }
+    });
+  });
+});
+        const quiz=document.getElementById('frm');
+        const resultD=document.getElementById('result');
+        const correctAns=['a', 'b', 'c', 'd', 'd'];
+
+        quiz.addEventListener('submit', e =>{
+            e.preventDefault();
+            let score=0;
+            const answerValues=[quiz.q1.value,quiz.q2.value,quiz.q3.value,quiz.q4.value,quiz.q5.value];
+
+            answerValues.forEach((answer, index) =>{
+                if (answer === correctAns[index]) {
+                    score+=1;
+                }
+            });
+            resultD.innerHTML=`Out of ${correctAns.length} Questions ${score} Answers are Correct`;
+        });
+    </script>
+</body>
+</html>

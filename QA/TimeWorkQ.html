@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeWorkQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Time&WorkQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">A can do a piece of work in 12 days. B can do this work in 16 days. A started the work alone. After how many days should B join him, so that the work is finished in 9 days?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">6 Days</li>
+                    <li class="opt">5 Days</li>
+                    <li class="opt">7 Days</li>
+                    <li class="opt">4 Days</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>A's work in 9 days = 9/12 = 3/4. Remaining work = 1/4 <br>
+                        This work was done by B in 1/4 × 16 = 4 days <br>
+                        ∴ B would have joined A after 9 – 4 = 5 days</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">A and B can do a piece of work in 4 days, while C and D can do the same work in 12 days. In how many days will A, B, C and D do it together?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">6 Days</li>
+                    <li class="opt">5 Days</li>
+                    <li class="opt">3 Days</li>
+                    <li class="opt">4 Days</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>A, B, C and D will together take ¼ + 1/12 = 4/12 = 1/3 ⇒ 3 days to complete the work</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">20 People working 8 hours a day complete a certain work in 10 days, In how many days 10 people working 10 hours a day can complete the same work</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">21 Days</li>
+                    <li class="opt">16 Days</li>
+                    <li class="opt">13 Days</li>
+                    <li class="opt">14 Days</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>M=people, D=days, H= time in hours, W=work is same <br>
+                        So, (M1 D1 H1)/W1=(M2 D2 H2)/W2 <br>
+                        (20x1x8)/20=(10xD2x10) <br>
+                        Therefore, In 16 days can complete the same work </p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">If 4 mens or 8 women can do a piece of work in 15 days, in how many days can 6 men and 12 women do the same piece of work</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">2 Days</li>
+                    <li class="opt">6 Days</li>
+                    <li class="opt">3 Days</li>
+                    <li class="opt">5 Days</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>1 men=2 women So, M1=8 , D1=15, M2=24 <br>
+                        Now, M1 D1= M2 D2 <br>
+                        8x15= 24xD2 <br>
+                        Therefore, In 5 days can complete the same work </p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">P is twice as good as Q and together they finish a piece of work in 36 days. The number of days taken by P alone to finish the work?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">23 Days</li>
+                    <li class="opt">62 Days</li>
+                    <li class="opt">54 Days</li>
+                    <li class="opt">55 Days</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>Given, <br>
+                        P is twice as good as Q br
+                        ⇒ (P’s 1 day’s work) / (Q’s 1 day’s work) = 2 / 1 Given, <br>
+                        ⇒ (P + Q)’s 1 day’s work = 1/36 <br>
+                        ⇒ P’s 1 day’s work = (1/36) × (2/3) = 1/54 <br>
+                        ∴ P alone can finish work in 54 days.</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1. A can do a piece of work in 12 days. B can do this work in 16 days. A started the work alone. After how many days should B join him, so that the work is finished in 9 days?
+1. 2 days
+2. 3 days
+3. 4 days
+4. 5 days
+5. 1 days
+
+Sol : Option 4
+Explanation:
+A's work in 9 days = 9/12 = 3/4. Remaining work = 1/4.
+This work was done by B in 1/4 × 16 = 4 days.
+∴ B would have joined A after 9 – 4 = 5 days.
+
+Q.2.A and B can do a piece of work in 4 days, while C and D can do the same work in 12 days. In how many days will A, B, C and D do it together?
+1. 12 days
+2. 4 days
+3. 3 days
+4. 2 days
+
+Sol : Option 3
+Explanation:A, B, C and D will together take ¼ + 1/12 = 4/12 = 1/3 ⇒ 3 days to complete the work.
+
+Q.3) 20 People working 8 hours a day complete a certain work in 10 days, In how many days 10 people working 10 hours a day can complete the same work
+Sol:
+M=people, D=days, H= time in hours, W=work is same
+So, (M1 D1 H1)/W1=(M2 D2 H2)/W2
+(20x1x8)/20=(10xD2x10)
+Therefore, In 16 days can complete the same work 
+
+Q.4) If 4 mens or 8 women can do a piece of work in 15 days, in how many days can 6 men and 12 women do the same piece of work
+Sol:
+1 men=2 women So, M1=8 , D1=15, M2=24 
+Now, M1 D1= M2 D2
+8x15= 24xD2
+Therefore, In 5 days can complete the same work--> 

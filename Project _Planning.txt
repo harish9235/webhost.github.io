@@ -1,0 +1,77 @@
+Project:
+
+Project-1  > Shop Website
+
+-----------------------------------------------------------------------------------------------------------
+Project-2 > Aptitude Website
+*Title tag:let's excel your Logical, Analytical Thinking
+*Three modules: 1)User Interface  2Question answer module   3)Test module
+
+
+*Title: Aptitude: a) Quantitative aptitude: Average, simple Interest and Compound Interest, Ratio proportion, partnership, chain rule, 
+                                            Time and work, percentage, ages,Time distance speed, Problems on Trains, profit n loss
+
+                  b) Reasoning:1) Logical Reasoning :Order Ranking, clock, calender, odd man out, etc 
+                               2) Verabal Reasoning :Coding-Decoding, Syllogism, Blood Relations, Direction sense, Data Sufficiency, Dice, Logical Sequence of words, Ven diagram, Analogy
+                               3) Non Verbal Reasoning : Matrix figure, Couting of figuress, Pattern completion, 
+ ****Optimize the Code**** 
+.......................................................................  
+font-family: 'poppins',sans-serif;
+..............................................................................................
+
+MAKE TEXT UNIFORM SPACING 
+ ----------------------------------------------------------------
+one single script file is required to link all questions html file
+----------------------------------------------------------------------------    
+ *Today is a great day to learn something new.  
+               
+*USE COLOR Gradient in css
+Use checkbox to click on option..after clicking we will get either green tick or red cross sign…..(try other red green options)
+give hover effect when curser on options
+
+*IN QUESTION-ANSWER MODULE ADD TOPICS LIST OF RESPECTIVE VERBAL REASONING , QUANTITAIVE , NON-VERBAL at left side of question answer and before effect it shouid only with border bottomand  give hover effect of transform: scale(1.15) 
+Requirement: all background sign image
+                         Icons like… plus, minus, multiplication, etc
+                        
+*SIGN IN LOGIN PAGE IF POSSIBLE
+
+* WORK ON FONT-STYLE
+
+*Optimize the code 
+                 1) can do single css file for group of same css style class
+
+................
+module-1 Topics
+................
+Background images for every topic
+topic 1:
+basic definition
+formula
+questions with answer (5)
+
+topic 2:
+basic definition
+formula
+questions with answer (5)
+
+..............................................
+module-2 Test:make 5 questions of each topic
+.............................................
+
+
+
+mention concepts used like:list tag,form tag, selectors, 
+
+
+
+NOTE: REFER AVAILABLE WEBSITES
+
+Requirement:
+ 1) Background images for every topic heading
+ 2) definations and concept of each topic
+ 3) question set 5 questions each
+ 4) 
+
+
+
+

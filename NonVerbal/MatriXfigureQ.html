@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatrixFigureQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Select a suitable figure from the four alternatives that would complete the figure matrix.</div>
+                    <img src="./MF1.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">1</li>
+                    <li class="opt">2</li>
+                    <li class="opt">3</li>
+                    <li class="opt">4</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>Each row (as well as each column) contains a figure consisting of a circle and two line segments, a 
+                        figure consisting of a circle and three line segments and a figure consisting of a circle and four line segments.</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Select a suitable figure from the Answer Figures that would replace the question mark (?)</div>
+                    <img src="./MF2.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">1</li>
+                    <li class="opt">2</li>
+                    <li class="opt">3</li>
+                    <li class="opt">4</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>The second figure is obtained from the first figure by moving the line segment to the opposite side of the 
+                        square boundary and replacing it with two similar line segments. Also, the element in the lower-left corner 
+                        gets replaced by two similar elements - one placed in the upper-left and the other placed in the lower-right corner.</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Select a suitable figure from the Answer Figures that would replace the question mark (?)</div>
+                    <img src="./MF3.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">1</li>
+                    <li class="opt">2</li>
+                    <li class="opt">3</li>
+                    <li class="opt">4</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                   <p>In each row, the third figure is a collection of the common elements (line segments) of the first and the second figures.</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Select a suitable figure from the Answer Figures that would replace the question mark (?)</div>
+                    <img src="./MF4.png" alt="" class="qimg">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">1</li>
+                    <li class="opt">2</li>
+                    <li class="opt">3</li>
+                    <li class="opt">4</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>In each row, the triangle follows the circle, the square follows the triangle and the circle follows the square.
+                        In case of the third row, the above rule exists for the inner as well as the outer elements.</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Select a suitable figure from the Answer Figures that would replace the question mark (?)</div>
+                    <img src="./MF5Q.jpg" alt="" class="qimg">
+                    <img src="./MF5Ans.jpg" alt="">
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">1)</li>
+                    <li class="opt">2)</li>
+                    <li class="opt">3)</li>
+                    <li class="opt">4)</li>
+                    <li class="opt">5)</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>The two parts of the first figure are rearranged and joined along the longer sides. The common 
+                        side is then removed to form the second figure. Hence the answer is B. (b).</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) Select a suitable figure from the four alternatives that would complete the figure matrix.
+ figure is available
+A1
+B 2
+C 3
+D 4
+Answer: Option A
+Explanation:
+Each row (as well as each column) contains a figure consisting of a circle and two line segments, a 
+figure consisting of a circle and three line segments and a figure consisting of a circle and four line segments.
+
+Q.2)
+Select a suitable figure from the four alternatives that would complete the figure matrix.
+figure is available
+A1
+B2
+C3
+D4
+Answer: Option C
+Explanation:
+The second figure is obtained from the first figure by moving the line segment to the opposite side of the 
+square boundary and replacing it with two similar line segments. Also, the element in the lower-left corner 
+gets replaced by two similar elements - one placed in the upper-left and the other placed in the lower-right corner.
+
+Q.3) 
+Select a suitable figure from the four alternatives that would complete the figure matrix.
+figure is available
+A1
+B2
+C3
+D 4
+Answer: Option C
+Explanation:
+In each row, the third figure is a collection of the common elements (line segments) of the first and the second figures.
+
+Q.4) 
+Select a suitable figure from the four alternatives that would complete the figure matrix.
+figure is available 
+A1
+B2
+C3
+D4
+Answer: Option C
+Explanation:
+In each row, the triangle follows the circle, the square follows the triangle and the circle follows the square.
+In case of the third row, the above rule exists for the inner as well as the outer elements.
+
+Q.5) In the following question, find out which of the answer figures (a), (b), (c) and (d) completes the figure matrix?
+Problem Figure:
+ 
+Answer figures:
+ 
+A.	(a)
+B.	(b)
+C.	(c)
+D.	(d)
+E.	none of the above
+Answer: option B 
+sol:The two parts of the first figure are rearranged and joined along the longer sides. The common 
+side is then removed to form the second figure. Hence the answer is B. (b).
+
+Q.6) : In the following question, find out which of the answer figures (a), (b), (c) and (d) completes the figure matrix?
+Problem Figure:
+ 
+Answer Figures:
+ 
+A.	(a)
+B.	(b)
+C.	(c)
+D.	(d)
+E.	none of the above
+Answer: option B                              
+sol: In the first and the third set, the black portion of the middle image is diagonally 
+opposite to that of the first image. Hence, the second image in the second set must be the option D. (d).
+
+Q.7) In each of the following questions, find out which of the answer figures (a), (b), (c) and (d) completes the figure matrix ?
+ figure is available
+Solution: (d) The third figure in each row comprises of parts which are not common to the first two figures.
+
+Q.8) Select a suitable figure from the four alternatives that would complete the figure matrix.
+figure is available 
+ A) 3
+ B) 1
+ C) 2
+ D) 4
+
+Answer: C) 2
+
+Explanation:
+The third figure in each row comprises of parts which are not common to the first two figures.
+
+Q.9) Select a suitable figure from the four alternatives that would complete the figure matrix.
+figure is available
+ A) 4
+ B) 3
+ C) 2
+ D) 1
+
+ Answer: B) 3
+
+Explanation:
+In each row, the third figure is a collection of the common elements (line segments) of the first 
+and the second figures.
+
+Q.10) Q2. Select a suitable figure from the four alternatives to complete the figure matrix.
+figure is available
+Answer: C
+Solution: we can see that the opposite two semicircles are filling up as we move 
+towards the right. The circles that are filled are vertical semicircles.-->

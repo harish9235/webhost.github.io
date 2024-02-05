@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingDecodingQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">In a certain code, ‘PEAK’ is written as ‘3512’ and ‘DINE’ is written as ‘6895’. How is KIND written in that code?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">2397</li>
+                    <li class="opt">2896</li>
+                    <li class="opt">2986</li>
+                    <li class="opt">2596</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>Values From ‘PEAK’ and ‘DINE’ : K=2, I=8, N=9, D=6 Therefore KIND=2896</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">If SENSATIONAL can be written as 12314567348, how will STATION be written in that code</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">1457626</li>
+                    <li class="opt">1545673</li>
+                    <li class="opt">1546268</li>
+                    <li class="opt">1654275</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>Values From ‘SENSATIONAL’ : S=1, T=5, A=4, T=5, I=6, 0=7, N=3 Therefore STATION=1545673</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">If 'white' is called 'red', and 'red' is called 'blue', 'blue' is called 'green', 'green' is called 'yellow', 'yellow' is called 'black', and what is the color of blood ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">White</li>
+                    <li class="opt">Blue</li>
+                    <li class="opt">Red</li>
+                    <li class="opt">Green</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                    <p>As we know, the blood is red. So if you observe the above question, it is mentioned that white is called red and red is called blue. So blood is red by using the substitution method, the answer would be blue</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">In the code language, 1) 'Ha ka bow' means How are you 2) 'ka te ma' means where are they 3) 'se re tho' means good and bad What does ‘are’ stand for?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">bow</li>
+                    <li class="opt">ma</li>
+                    <li class="opt">te</li>
+                    <li class="opt">Ka</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>If you observe the question, it is mentioned that both the 1st and 2nd statements are repeated. So the common word in both these statements is KA. The rest of each word is different. So, "are" stands for ka.
+                        So, according to mixed letter coding, "are" stands for "ka"</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">If 'the monster hunter' is coded as 324,and 'will be the' is coded as 476, and 'they are in' is coded as 158. Which digit represents 'the' ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">3</li>
+                    <li class="opt">6</li>
+                    <li class="opt">4</li>
+                    <li class="opt">2</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>If you observe the question in two statements, the is repeated, and in both the two statements, the only repeated letter is 4. So, as per mixed number coding, the exact code for "the" is "4"</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) In a certain code, ‘PEAK’ is written as ‘3512’ and ‘DINE’ is written as ‘6895’. How is KIND written in that code?
+         2397    2896  2986   2596
+        Sol: Values From ‘PEAK’ and ‘DINE’ : K=2, I=8, N=9, D=6 Therefore KIND=2896 
+
+Q.2) If SENSATIONAL can be written as 12314567348, how will STATION be written in that code
+1457626     1545673    1546268   1654275 
+Sol: Values From ‘SENSATIONAL’ : S=1, T=5, A=4, T=5, I=6, 0=7, N=3 Therefore STATION=1545673  
+
+Q.3) If 'white' is called 'red', and 'red' is called 'blue', 'blue' is called 'green', 'green' is called 'yellow', 'yellow' is called 'black', and what is the colour of blood?
+Explanation: As we know, the blood is red. So if you observe the above question, it is mentioned that white is called red and red is called blue. So blood is red by using the substitution method, the answer would be blue.
+
+Q.4) In the code language,
+1) 'Ha ka bow' means How are you 2) 'ka te ma' means where are they 3) 'se re tho' means good and bad
+What does ‘are’ stand for?
+Explanation: If you observe the question, it is mentioned that both the 1st and 2nd statements are repeated. So the common word in both these statements is KA. The rest of each word is different. So, "are" stands for ka.
+So, according to mixed letter coding, "are" stands for "ka".
+
+Q.5) Q) If 'the monster hunter' is coded as 324,and 'will be the' is coded as 476, and 'they are in' is coded as 158. Which digit represents the?
+Explanation: If you observe the question in two statements, the is repeated, and in both the two statements, the only repeated letter is 4. So, as per mixed number coding, the exact code for "the" is "4".
+
+Q.6) If the given letters are represented by the numeral below them,
+RTSUVABCDE:8520679134, Then 408927=?
+EURSBA     ESRBSA     EURBSA     ESRBAS
+
+Sol: Values From ‘RTSUVABCDE’ : 4=E, 0=U, 8=R, 9=B, 2=S, 7=A Therefore 408927= EURBSA
+Q.7) If B=2, BAG=10, then BOX=?
+41   52   67    89
+Sol: BAG=10 (it is summation of alphabets of B, A, G), so BOX=2+15+24=41-->

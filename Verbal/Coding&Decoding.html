@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding&Decoding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+        body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 585px;
+            height: 518px;
+            /*border: 1px solid grey;*/
+        }
+        #right{
+            width: 502px;
+            height: 518px;
+        }
+        #concept{
+            width: 540px;
+            height: 427px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 12px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        li{
+            margin-left: -5px;
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 8px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/Analogy.html"><div class="box">Analogy</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/BloodRelation.html"><div class="box">Blood Relation</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/AlphaNumeric.html"><div class="box">Alpha Numeric</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/DataSufficiency.html"><div class="box">Data Sufficiency</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/DirectionSense.html"><div class="box">Direction Sense</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/LogicalSequenceofWords.html"><div class="box">Logical Sequence of Words</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/SeatingArrangement.html"><div class="box">Seating Arrangement</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/StatementConclusion.html"><div class="box">Statement-Conclusion</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/Syllogism.html"><div class="box">Syllogism</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/Verbal/VennDiagram.html"><div class="box">Venn Diagram</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Coding & Decoding</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>Coding is a part of the logical reasoning section used to encrypt words, numbers in specific patterns or codes using particular rules and regulations. Decoding is the process that is used to decrypt the patterns into original forms from the given forms</p>
+                       <p>Types of Coding-Decoding With Examples :</p>
+                       <ol type="A">
+                        <li>Letter Coding :Letter Coding is a type in which the letters are replaced with other letters.Example: In certain language PROSE is coded as PPOQE. How will LIGHT coded? Solution: PROSE:PPOQE from this every second alternative letter as changed to 2nd previous letter So, LIGHT=LGGFT</li><br>
+                        <li>Number Coding : In the Number Coding we will have to observe and guess the hidden code of two or more sets of numbers.Example: If “AOUSE” is coded as 35842, and LEMOC is coded as 12659, then what would be the code for AELEC? Solution: Values From ‘AOUSE’ and ‘LEMOC’ : A=3, E=2, L=1, C=9 Therefore AELEC=32129</li><br>
+                        <li>Substitution Coding : In substitution coding, it assigns particular objects to code names. Example: See in practice questions Que.3</li><br>
+                        <li>Mixed Letter Coding :In this type of question, three or four complete messages are provided in the coded language, and the code for the particular word is asked.Example: See in practice questions Que.4</li><br>
+                        <li>Mixed Number Coding : In this mixed number-coding question, three or four complete messages are given in the coded language, and the code number for a particular word is asked.Example: See in practice questions Que.5</li>
+                       </ol>
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./CodingDecoding.jpg" alt="" width="500px" height="516px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+Q.1) In a certain code, ‘PEAK’ is written as ‘3512’ and ‘DINE’ is written as ‘6895’. How is KIND written in that code?
+         2397    2896  2986   2596
+        Sol: Values From ‘PEAK’ and ‘DINE’ : K=2, I=8, N=9, D=6 Therefore KIND=2896 
+
+Q.2) If SENSATIONAL can be written as 12314567348, how will STATION be written in that code
+1457626     1545673    1546268   1654275 
+Sol: Values From ‘SENSATIONAL’ : S=1, T=5, A=4, T=5, I=6, 0=7, N=3 Therefore STATION=1545673  
+
+Q.3) If 'white' is called 'red', and 'red' is called 'blue', 'blue' is called 'green', 'green' is called 'yellow', 'yellow' is called 'black', and what is the colour of blood?
+Explanation: As we know, the blood is red. So if you observe the above question, it is mentioned that white is called red and red is called blue. So blood is red by using the substitution method, the answer would be blue.
+
+Q.4) In the code language,
+1) 'Ha ka bow' means How are you 2) 'ka te ma' means where are they 3) 'se re tho' means good and bad
+What does ‘are’ stand for?
+Explanation: If you observe the question, it is mentioned that both the 1st and 2nd statements are repeated. So the common word in both these statements is KA. The rest of each word is different. So, "are" stands for ka.
+So, according to mixed letter coding, "are" stands for "ka".
+
+Q.5) Q) If 'the monster hunter' is coded as 324,and 'will be the' is coded as 476, and 'they are in' is coded as 158. Which digit represents the?
+Explanation: If you observe the question in two statements, the is repeated, and in both the two statements, the only repeated letter is 4. So, as per mixed number coding, the exact code for "the" is "4".
+
+Q.6) If the given letters are represented by the numeral below them,
+RTSUVABCDE:8520679134, Then 408927=?
+EURSBA     ESRBSA     EURBSA     ESRBAS
+
+Sol: Values From ‘RTSUVABCDE’ : 4=E, 0=U, 8=R, 9=B, 2=S, 7=A Therefore 408927= EURBSA
+Q.7) If B=2, BAG=10, then BOX=?
+41   52   67    89
+Sol: BAG=10 (it is summation of alphabets of B, A, G), so BOX=2+15+24=41.
+
+

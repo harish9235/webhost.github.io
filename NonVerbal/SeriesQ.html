@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeriesNVQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="70px" height="68px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/NonVerbal/Series.html"><div class="nav">Home</div></a>
+            <a href=""><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div id="q1">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Given a Series 50, 45, 40, 35, 30, ? <br>Find what number would come in place of the question mark(?)</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">25</li>
+                    <li class="opt">32</li>
+                    <li class="opt">33</li>
+                    <li class="opt">45</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1">
+                    <p>If you observe the pattern, then you will see, it’s nothing but constant difference series. <br>
+                        50 – 5 = 45 <br>
+                        45 – 5 = 40 <br>
+                        40 – 5 = 35 <br>
+                        35 – 5 = 30 <br>
+                        30 – 5 = 25 <br>
+                        Hence, the correct answer is 25.</p>
+                </div>
+            </div><hr>
+            <div id="q2">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Find the number which will come in the place of the question mark in the given series 11, 12, 15, 20, 27,?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">25</li>
+                    <li class="opt">36</li>
+                    <li class="opt">33</li>
+                    <li class="opt">45</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2">
+                    <p>Here, the series follows a pattern of the sum of consecutive odd numbers. <br>
+                        11 + 1 = 12 <br>
+                        12 + 3 = 15 <br>
+                        15 + 5 = 20 <br>
+                        20 + 7 = 27 <br>
+                        27 + 9 = 36 <br>
+                        Hence, the missing number would be 36</p>
+                </div>
+            </div><hr>
+            <div id="q3">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">Find the number which would come in place of question mark 81 : 101 ::  121 : ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">200</li>
+                    <li class="opt">145</li>
+                    <li class="opt">130</li>
+                    <li class="opt">145</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3">
+                   <p>Here 81 is nothing but 92 <br>
+                    and 101 is nothing but (9 + 1)2 +1 <br>
+                    So, likewise this 121 is nothing but 112 br
+                    so ,next term will be (11 + 1)2 + 1 = 145</p>
+                </div>
+            </div><hr>
+            <div id="q4">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">Select a suitable figure from the Answer Figures that would replace the question mark (?)</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">25</li>
+                    <li class="opt">16</li>
+                    <li class="opt">33</li>
+                    <li class="opt">15</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4">
+                    <p>This series is an alternating series, where a pattern following is +2, +4, +2, +4, and so on <br>
+                        2 + 2 = 4 <br>
+                        4 + 4 = 8  <br>
+                        8 + 2 = 10 <br>
+                        10 + 4 = 14 <br>
+                        14 + 2 = 16 <br>
+                        Hence the next term will be 16</p>
+                </div>
+            </div><hr>
+            <div id="q5">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Find the number which would come in place of question mark  6, 11, 18, 27, ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">38</li>
+                    <li class="opt">32</li>
+                    <li class="opt">33</li>
+                    <li class="opt">45</li>
+                </ol>
+                <div class="an">Answer :Option A</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5">
+                    <p>Here, every term is squares from (starting from 2 ) with the addition of 2. 
+                        22 + 2 = 6
+                        32 + 2 =11
+                        42 + 2 = 18
+                        52 + 2 = 27
+                        62 + 2 = 38 </p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q1). Given a Series 50, 45, 40, 35, 30, ? 
+Find what number would come in place of the question mark(?).
+a) 28
+b) 15
+c) 25
+d)  20
+Answer :  (c) 25 
+Explanation :  
+ If you observe the pattern, then you will see, it’s nothing but constant difference series.
+50 – 5 = 45
+45 – 5 = 40
+40 – 5 = 35
+35 – 5 = 30
+30 – 5 = 25
+Hence, the correct answer is 25.
+
+Q. 2) Find the number which will come in the place of the question mark in the given series 11,12,15,20,27,?
+a) 36
+b) 35
+c) 38
+d)  41
+Answer : (a) 36
+Explanation:-  
+Here, the series follows a pattern of the sum of consecutive odd numbers.
+11 + 1 = 12
+12 + 3 = 15
+15 + 5 = 20
+20 + 7 = 27
+27 + 9 = 36.
+Hence, the missing number would be 36.
+
+
+Q.3) Find the number which would come in place of question mark 81 : 101 ::  121 : ? .
+a) 141
+b) 143
+c) 170
+d)  145
+Answer : (d) 145  
+Explanation:-  
+Here 81 is nothing but 92 
+and 101 is nothing but (9 + 1)2 +1
+So, likewise this
+121 is nothing but 112
+so ,next term will be (11 + 1)2 + 1 = 145
+
+Q.4) Find the number which would come in place of question mark 2, 4,  8, 10, 14, ?.
+a) 16
+b) 18
+c) 24
+d)  20
+Answer : (a) 16
+Explanation:-  
+This series is an alternating series, where a pattern following is +2, +4, +2, +4, and so on 
+2 + 2 = 4
+4 + 4 = 8 
+8 + 2 = 10
+10 + 4 = 14
+14 + 2 = 16 
+Hence the next term will be 16.
+
+Q.5) Find the number which would come in place of question mark  6, 11,18,27, ?.
+a) 33
+b) 40
+c) 38
+d)  81
+Answer :  (c)  38
+Explanation:- 
+Here, every term is squares from (starting from 2 ) with the addition of 2. 
+22 + 2 = 6
+32 + 2 =11
+42 + 2 = 18
+52 + 2 = 27
+62 + 2 = 38 
+
+Q.6) 1, 2, 3, 10, ?, 9802
+ A) 99
+ B) 199
+
+ C) 299
+ D) 999
+
+ Answer & ExplanationAnswer: A) 99
+
+Explanation:
+
+2 = 12 + 1
+3 = 22 – 1
+10 = 32 + 1
+102 − 1 = 99 
+9802 = 992 + 1
+
+Q.7) Find the missing term in the following series ?
+10000, 11000, 9900, 10890, ?, 10781
+ A) 10423
+ B) 9801
+
+ C) 10241
+ D) 9712
+
+ Answer & ExplanationAnswer: B) 9801
+
+Explanation:
+
+Clearly, alternatively we add and subtract 10% of a term to obtain the next term of the series.
+Thus, 10000 + (10% of 10000)= 11000;
+11000 - (10% of 11000) = 9900;
+ 9900 + (10% of 9900)  = 10890;
+10890 - (10% of 10890) = 9801.
+ 9801 + (10% of 9801)  = 9801+980 = 10781.
+So, missing term = 10890- (10% of 10890)= 9801.
+Q.8) 13 17 23 29 31 37 ??
+1. 22
+2. 41
+3. 19
+4. 23
+5. 27
+Answer & Explanation
+Sol: Option 2
+Explanation: The given series is a prime number series. Hence the next prime number in this sequence would be 41.
+Q.9) 1, 125, 729, 2177
+1. 2177
+2. 729
+3. 125
+4. 1
+5. 121
+Answer & Explanation
+Sol: Option 1
+Explanation: 1, 125, 729, 2177
+1 = 13 , 125 = 53, 729 = 93. So, next number would be 133= 2197
+Therefore, 2177 is wrong.
+1.	17 16 14 12 11 8 8 ?
+1. 4
+2. 7
+3. 3
+4. 2
+5. None of the above
+Answer & Explanation
+Sol: Option 1
+Explanation: There are two series:
+Ist : 17 14 11 8 and 2nd: 16 12 8 ?
+In first series, -3 , -3 ,-3….. and in 2nd series , -4 , -4 ,-4….
+Therefore, next term will be 8 – 4 = 4.-->

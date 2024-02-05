@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratio&ProportionQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Ratio&proportionQtest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">A,B,C and D divide a sum of money among themselves in the ratio of 7:4:3:2. If D gets Rs.500 less than A, Find total amount</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.3500</li>
+                    <li class="opt">Rs.1600</li>
+                    <li class="opt">Rs.4300</li>
+                    <li class="opt">Rs.5500</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>Total of ratio is 7+4+3+2=16 <br>
+                    If D gets Rs.500 less than A which is equal A-D ratio  i. e 5 (Rs.500) <br>
+                    So for 1 ratio amount is Rs. 100 <br>
+                    Therefore Total Amount is 16x100=Rs.1600</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">A bag contains 50p, 25p and 10p coins in the ratio 5:9:4, amounting to Rs.206.Find total no of coins in the bag</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">72 coins</li>
+                    <li class="opt">40 coins</li>
+                    <li class="opt">720 coins</li>
+                    <li class="opt">32 coins</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>let ‘x’ will be number of coins <br>
+                        (0.50) (5x) + (0.25) (9x)+(0.10)(4x)=206 <br>
+                        2.5x + 2.25x + 0.4x=206 <br>
+                        X=206/5.15   Therefore x=40 <br>
+                        So, Total Coins in the bag is = 5 (no.of 50p coins)x40 + 9 (no. of 25 coins)x40 + 4 (no. of 10p coins)x40 = 720 coins</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">If A:B=3:4 and sum of their square is 225. Find A & B</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">16</li>
+                    <li class="opt">12</li>
+                    <li class="opt">24</li>
+                    <li class="opt">42</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>9x2 + 16 x2 =225 <br>
+                        25 x2  =225 <br>
+                         x = 3 <br>
+                 So, A=3x3=9   and B=4x3=12</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">In mixture of acid and water , acid and water are in the ratio of 2:5, if total solution is 91 liters . What is the quantity of water</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">63 Liters</li>
+                    <li class="opt">30 Liters</li>
+                    <li class="opt">44 Liters</li>
+                    <li class="opt">65 Liters</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>let x will be one ratio <br>
+                        Per ratio quantity is = (Total Solution) / (sum of ratio) = 91/7= 13 <br>
+                        So, Water quantity =5x13= 65 Liters</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Find the Mean Proportion of 4, 25 ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">32</li>
+                    <li class="opt">40</li>
+                    <li class="opt">10</li>
+                    <li class="opt">42</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>Mean Proportion b2= a x c <br>
+                        b=4x25 <br>
+                        b=10</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--.1) A,B,C and D divide a sum of money among themselves in the ratio of 7:4:3:2. If D gets Rs.500 less than A, Find total amount
+
+Solution: Total of ratio is 7+4+3+2=16
+If D gets Rs.500 less than A which is equal A-D ratio  i. e 5 (Rs.500)
+So for 1 ratio amount is Rs. 100
+Therefore Total Amount is 16x100=Rs.1600
+
+Q.2) A bag contains 50p, 25p and 10p coins in the ratio 5:9:4, amounting to Rs.206.Find total no of coins in the bag 
+
+Solution: let ‘x’ will be number of coins
+(0.50) (5x) + (0.25) (9x)+(0.10)(4x)=206
+2.5x + 2.25x + 0.4x=206
+X=206/5.15   Therefore x=40
+So, Total Coins in the bag is = 5 (no.of 50p coins)x40 + 9 (no. of 25 coins)x40 + 4 (no. of 10p coins)x40 = 720 coins
+
+Q.3)  If A:B=3:4 and sum of their square is 225. Find A & B 
+
+Sol: 9x2 + 16 x2 =225
+       25 x2  =225
+        x = 3
+So, A=3x3=9   and B=4x3=12
+
+Q.4) In mixture of acid and water , acid and water are in the ratio of 2:5, if total solution is 91 liters . What is the quantity of water
+
+Sol: let x will be one ratio
+Per ratio quantity is = (Total Solution) / (sum of ratio) = 91/7= 13
+So, Water quantity =5x13= 65 Liters
+
+Q. 5) Find the Mean Proportion of 4, 25
+Sol: Mean Proportion b2= axc
+                     b=4x25
+                     b=10-->

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleInterestQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleInterestQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">The rate at which sum becomes four times of itself in 25 years at simple Interest will be</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">30%</li>
+                    <li class="opt">12%</li>
+                    <li class="opt">27%</li>
+                    <li class="opt">42%</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>Let, p=100, T=25 years, 4 times in 25 years=400 <br>
+                        So Interest amount =400-100=300 <br>
+                        Simple Interest=[p(principal)xTxR(Interest rate)]/100 <br>
+                        300=(100x25xR)/100 <br>
+                        Therefore, The rate at which sum becomes four times of itself in 25 years at simple Interest will be 12%</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">If certain sum of money at simple interest amounts to Rs.3250 in 5 years then the rate of interest per annum will be</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">Rs.250</li>
+                    <li class="opt">Rs.220</li>
+                    <li class="opt">Rs.150</li>
+                    <li class="opt">Rs.230</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>Principal+interest=2800……2nd year <br>
+                        Principal+interest=3250……3rd year <br>
+                        Now, three years simple interest amount=3250-2800=450 br
+                        Therefore, rate of interest per annum will be=450/time=450/3= Rs.150</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">A sum of money becomes 5 times of itself in 3 years. From simple interest in how many years it will becomes 13 times?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">2 Years</li>
+                    <li class="opt">9 Years</li>
+                    <li class="opt">4 Years</li>
+                    <li class="opt">8 Years</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>In 3 years principal becomes 5 times at simple interest <br>
+                        consider principal is 100, so five times of principal amount is 500 <br>
+                        after x years principal becomes 13 times, so principal amount is 1300 <br>
+                        now, interest amount  3 years=500-100=400 <br>
+                        and interest amount in x years=1300-100=1200 <br>
+                        if, to get 400 interest amount need 3 years <br>
+                        then to get 1200 interest amount it needs 9 years </p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">In how many years Rs 150 will produce the same interest at 8% as Rs. 800 produce in 3 years at 9/2%</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">6 Years</li>
+                    <li class="opt">3 Years</li>
+                    <li class="opt">4 Years</li>
+                    <li class="opt">9 Years</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>for time T <br>
+                        150 x (78/100) x T=800x(9/2)x100x3 <br>
+                          T=100x(9/2)x50 <br>
+                          T= 9 Years</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">A sum becomes five times of itself in 20 years. It will become 7 times itself in how many years?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">32 Years</li>
+                    <li class="opt">40 Years</li>
+                    <li class="opt">30 Years</li>
+                    <li class="opt">42 Years</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>Interest earned =P×r×t <br>
+                        P= Principal amount <br>
+                        r= Rate of interest <br>
+                        t= Time period <br>
+                        Here, sum becomes 5 times in 20 years,<br>
+                        ⇒ Interest earned 4 times the principal amount. <br>
+                        4P = P×r×20100 <br> 
+                        r = (420)×100 = 20% <br>
+                        here we need to calculate for 7 times of the principal, interest should be 600% <br> 
+                        i.e P+6P = 7P <br>
+                        Time = (600%)/(20%) <br>
+                        Time = 30 years</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) The rate at which sum becomes four times of itself in 25 years at simple Interest will be
+
+sol:
+Let, p=100, T=25 years, 4 times in 25 years=400
+So Interest amount =400-100=300
+Simple Interest=[p(principal)xTxR(Interest rate)]/100
+300=(100x25xR)/100
+Therefore, The rate at which sum becomes four times of itself in 25 years at simple Interest will be 12%
+
+Q.2) If certain sum of money at simple interest amounts to Rs.3250 in 5 years then the rate of interest per annum will be
+sol:
+
+Principal+interest=2800……2nd year
+Principal+interest=3250……3rd year
+Now, three years simple interest amount=3250-2800=450
+Therefore, rate of interest per annum will be=450/time=450/3= Rs.150
+
+Q.3) A sum of money becomes 5 times of itself in 3 years. From simple interest in how many years it will becomes 13 times?
+sol:
+In 3 years principal becomes 5 times at simple interest
+consider principal is 100, so five times of principal amount is 500
+after x years principal becomes 13 times, so principal amount is 1300
+now, interest amount  3 years=500-100=400
+and interest amount in x years=1300-100=1200
+if, to get 400 interest amount need 3 years 
+then to get 1200 interest amount it needs 9 years 
+
+Q.4) In how many years Rs 150 will produce the same interest at 8% as Rs. 800 produce in 3 years at 9/2%
+
+sol:
+for time T
+150 x (78/100) x T=800x(9/2)x100x3
+  T=100x(9/2)x50
+  T= 9 Years
+
+Q.5) A sum becomes five times of itself in 20 years. It will become 7 times itself in how many years?
+
+sol:
+Interest earned =P×r×t
+P= Principal amount
+r= Rate of interest
+t= Time period
+Here, sum becomes 5 times in 20 years, 
+⇒ Interest earned 4 times the principal amount.
+4P = P×r×20100    
+r = (420)×100     = 20%
+here we need to calculate for 7 times of the principal, interest should be 600%  
+i.e P+6P = 7P
+Time = (600%)/(20%)
+Time = 30 years-->

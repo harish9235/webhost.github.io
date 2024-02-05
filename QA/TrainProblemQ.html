@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainProblemQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TrainProblemQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">Trains Leaving stations A & B respectively at 8:30 am. If speeds of trains are 25 kmph and 35 kmph at what time they will meet other. If distance between 2 stations is 260 kms</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">11.20 am</li>
+                    <li class="opt">12.50 pm</li>
+                    <li class="opt">17.30 pm</li>
+                    <li class="opt">12.15 pm</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>Same direction speed= 25 + 35= 60 kmph <br>
+                        Speed=distance/time <br>
+                        60=260/time <br>
+                        Time=4.33 it means 4 hr 20 minutes <br>
+                        So, A and B will reach at = 8:30 am ( start time ) + 4 hr 30 minutes (time required to meet each other) = 12.50 pm</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">Two trains 100 m and 200 m long at S1=60 kmph and S2=30 kmph in opposite direction on parallel tracks. What time to cross each other?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">32 sec</li>
+                    <li class="opt">40 sec</li>
+                    <li class="opt">12 sec</li>
+                    <li class="opt">42 sec</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution</button>
+                <div id="desc2" class="desc">
+                    <p>L1=100 m, L2=200 m, S1=60 kmph, S2=30 kmph <br>
+                        Speed=distance/time <br> 
+                        Speed=60+30=90 kmph <br>
+                        So, 90=(100+200)/time <br>
+                        Therefore Time to cross each other= 12 sec</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">120 m</li>
+                    <li class="opt">240 m</li>
+                    <li class="opt">340 m</li>
+                    <li class="opt">420 m</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>Speed=15m/sec
+                        Length of the train = (15 x 20) m = 300 m <br>
+                        Let the length of the platform be X metres <br>
+                        Then, (X+300)/36=15 <br>
+                        X+300=540 <br>
+                        X=240 m</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">A train running with speed of 82 km/hr crosses a 250 m long platform in 27 sec. Find the length of train</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">220 m</li>
+                    <li class="opt">340 m</li>
+                    <li class="opt">240 m</li>
+                    <li class="opt">365 m</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>distance= length of platform (Lp) + length of train (Lt)
+                        speed=distance/time
+                        82= (250 + Lt)/27
+                        Therefore, Length of Train Lt= 365 m</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Two trains 200 m and 150 m long at S1=40 kmph and S2=60 kmph in opposite direction on parallel tracks. What time to cross each other?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li class="opt">32 sec</li>
+                    <li class="opt">40 sec</li>
+                    <li class="opt">12.60 sec</li>
+                    <li class="opt">42 sec</li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>L1=200 m, L2=150 m, S1=40 kmph, S2=60 kmph <br>
+                        Speed=distance/time <br> 
+                        Speed=40+60=100 kmph <br>
+                        So, 100=(200+150)/time <br>
+                        Therefore Time to cross each other= 12.60 sec</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1) Trains Leaving stations A & B respectively at 8:30 am. If speeds of trains are 25 kmph and 35 kmph at what time they will meet other. If distance between 2 stations is 260 kms.
+Sol:
+Same direction speed= 25 + 35= 60 kmph
+Speed=distance/time
+60=260/time
+Time=4.33 it means 4 hr 20 minutes
+So, A and B will reach at = 8:30 am ( start time ) + 4 hr 30 minutes (time required to meet each other) = 12.50 pm
+
+Q.2) Two trains 100 m and 200 m long at S1=60 kmph and S2=30 kmph in opposite direction on parallel tracks. What time to cross each other?
+Sol:
+L1=100 m, L2=200 m, S1=60 kmph, S2=30 kmph
+Speed=distance/time 
+Speed=60+30=90 kmph
+So, 90=(100+200)/time
+Therefore Time to cross each other= 12 sec
+
+Q.3) A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?
+Sol:
+Speed=15m/sec
+Length of the train = (15 x 20) m = 300 m.
+Let the length of the platform be X metres.
+Then, (X+300)/36=15
+X+300=540
+X=240 m.
+
+Q.4) A train running with speed of 82 km/hr crosses a 250 m long platform in 27 sec. Find the length of train
+
+sol:
+distance= length of platform (Lp) + length of train (Lt)
+speed=distance/time
+82= (250 + Lt)/27
+Therefore, Length of Train Lt= 365 m-->

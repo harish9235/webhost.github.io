@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Verbal Reasoning</title>
+    <style>
+        body{
+            margin: auto;
+        }
+        #rib{
+            width: 100vw;
+            height: 1px;
+            background-color: rgb(170, 130, 238);   
+        }
+        #top{
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(125, 111, 244);
+            height: 60px;
+            margin-top: 5px;
+            box-shadow: 1px 2px 2px grey;
+        }
+        #heading{
+            color: white;
+            font-size: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 3px;
+            font-weight: 800;
+            text-shadow: 2px 3px 1px rgb(79, 69, 69);
+            padding-left: 58px;   
+        }
+        #navSection{
+            margin-left: 140px;
+        }
+        ul{
+            list-style: none;
+        }
+        #contain{
+            width: 410px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        } 
+        #contain li a{
+            width: 150px;
+            height: 25px;
+            border: 1px solid rgb(137, 179, 180);
+            color: white;
+            border-radius: 13px;
+            font-size: 11px;
+            font-weight: 700;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 2px;
+            background-color: rgb(100, 79, 219); 
+            box-shadow: 2px 2px 2px rgb(188, 210, 219);
+        }
+        #contain #home a{
+            width: 90px;
+        }
+        #contain li a:hover{
+            color: white;
+            background-color: rgb(226, 113, 228);
+            border: 1px solid white;
+        }
+        a{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            width: auto;
+            margin-left: -40px;
+        }
+        ul li ul.dropdown li{
+            display: block;
+            margin: 2px 0px;
+        }
+        ul li:hover ul.dropdown{
+            display: block;
+            /*animation-duration: 2s;
+            animation-name: slider;*/
+            /*animation-iteration-count: infinite;*/
+        }
+        /*@keyframes slider{
+                from{
+                      height: 0px;
+                      background-color: rgb(0, 34, 255);
+
+                }
+                to{
+                    height: 100%;
+                    background-color: blue;
+                }
+        }*/
+        #contain li .dropdown .point a:hover{
+            transform: scale(1.2);
+            background-color: rgb(223, 57, 179);
+            border: 1px solid white;
+        }
+        #main{
+            width: 100vw;
+            height: 450px;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            border: 1px solid rgb(215, 185, 250);
+            border-radius: 8px;
+            box-shadow: 1px 2px 3px grey;
+        }
+        #mainBack{
+            width: 660px;
+            height: 446px;
+            display: flex;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1px;
+            padding-left: 3px;
+            background-color: white;
+        }
+        #contentBox{
+           width: 570px;
+           height: 300px;
+           border-radius: 9px;
+           display: flex;
+           flex-wrap: wrap;
+           align-items: center;
+           justify-content: center;
+           justify-content: space-around;
+           background-color: rgb(244, 247, 246);
+        }
+        .box{
+            width: 170px;
+            height: 40px;
+            border: 1px solid rgb(247, 248, 250);
+            border-radius: 20px;
+            color: white;
+            font-weight: 700;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(110, 100, 205);
+            box-shadow: 2px 2px 2px rgb(206, 178, 219);
+        }
+        .box:hover{
+            transform: scale(1.15);
+            background-color: rgb(175, 220, 97);
+            border: 1px solid;
+        }
+        #box11{
+            margin-right: 190px;
+        }
+        #illus{
+            width: 542px;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="rib"></div>
+    <div id="top">
+        <div id="heading">NON-VERBAL REASONING</div>
+        <div id="navSection">
+            <ul id="contain">
+                <li id="home"><a href="http://127.0.0.1:5500/CSS/Project/front.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/CSS/Project/QA.html">Quantitative Aptitude</a>
+                    <ul class="dropdown">
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Average.html">Average</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Percentage.html">Percentage</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Partnership.html">Partnership</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/SimpleMaths.html">Simple Maths</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Ratio&Proportion.html">Ratio & Proportion</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/TimeDistanceSpeed.html">Time-Distance-Speed</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Profit&Loss.html">Profit & Loss</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/TrainProblem.html">Train Problem</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Age.html">Age</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/Time&Work.html">Time-Work</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/SimpleInterest.html">Simple Interest</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/QA/CompundInterest.html">Compound Interest</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://127.0.0.1:5500/CSS/Project/VR.html">Verbal Reasoning</a>
+                    <ul class="dropdown">
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/Coding&Decoding.html">Coding-Decoding</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/VennDiagram.html">Venn Diagram</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/BloodRelation.html">Blood Relation</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/DirectionSense.html">Direction Sense</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/DataSufficiency.html">Data Sufficiency</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/AlphaNumeric.html">Alpha-Numeric Series</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/Syllogism.html">Syllogism</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/StatementConclusion.html">Statement-Conclusion</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/Analogy.html">Analogy</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/SeatingArrangement.html">Seating Arrangement</a></li>
+                        <li class="point"><a href="http://127.0.0.1:5501/Project/Verbal/LogicalSequenceofWords.html">Logical Sequence of Words</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainBack">
+            <div id="contentBox">
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/Series.html"><div class="box" id="box1">Series</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/MatriXfigure.html"><div class="box" id="box2">Matrix figure</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/PatternMatching.html"><div class="box" id="box3">Pattern Matching</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/PaperFolding.html"><div class="box" id="box4">Paper Folding</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/DotSituation.html"><div class="box" id="box5">Dot Situation</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/AnalogyNV.html"><div class="box" id="box6">Analogy</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/CubesDice.html"><div class="box" id="box7">Cubes and Dice</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/RuleDetection.html"><div class="box" id="box8">Rule Detection</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/Classification.html"><div class="box" id="box9">Classification</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/MirrorImages.html"><div class="box" id="box10">Mirror Images & Reflection</div></a>
+                     <a href="http://127.0.0.1:5501/Project/NonVerbal/CountingOfFigures.html"><div class="box" id="box11">Counting of figures</div></a>
+             </div>
+        </div>
+        <div id="illus"><img src="./3081629.jpg" alt="" width="540px" height="450px"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PercentageQ</title>
+    <link rel="stylesheet" href="Q.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo"><img src="./arlogo.png" width="55px" height="53px"></div>
+        <div id="heading">APTITUDE <span>&</span> REASONING</div>
+        <div id="container">
+            <a href="http://127.0.0.1:5500/CSS/Project/QA.html"><div class="nav">Home</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/PercentageQTest.html"><div class="nav">Mock Test</div></a>
+        </div>
+    </div>
+    <div class="sub"><div class="pqs">Practice Questions :<span class="pq"> Percentage</span></div></div>
+    <div id="main">
+        <div id="leftside"></div>   
+        <div id="questions">
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.1)</div>
+                    <div class="l">If A = 50 & B = 40 then, A is what % more than B?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li>A is 10 % more than B</li>
+                    <li>A is 25 % more than B</li>
+                    <li>A is 15 % more than B</li>
+                    <li>A is 35 % more than B</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide1()">Solution ></button>
+                <div id="desc1" class="desc">
+                    <p>consider 1% of B=40/100=0.4 <br>
+                        A-B=50-40=10 <br>
+                        Now, 10/0.4=25 <br>
+                        Therefore, A is 25 % more than B.</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.2)</div>
+                    <div class="l">A = 50 & B = 40, if A is increase by 10 % and B is increase by 30% then what is the total percentage change ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li>16.20% </li>
+                    <li>12.12% </li>
+                    <li>18.88% </li>
+                    <li>20.08% </li>
+                </ol>
+                <div class="an">Answer :Option C</div>
+                <button class="sol" onclick="showHide2()">Solution ></button>
+                <div id="desc2" class="desc">
+                    <p>Total(before increasing)=50+40=90 <br>
+                        if A is increase by 10 %=50+((50/100)x10)=55 <br>
+                        B is increase by 30%=40+((40/100)x30)=5 <br>
+                        Total(after increasing)=55+52=107 <br>
+                        Change in total=107-90=17 <br>
+                        Therefore total percentage change=17/(90/100)=18.88%</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.3)</div>
+                    <div class="l">If length of rectangle is increase by 20% and breadth is increase by 10% then what is percentage change in area of rectangle?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li>22%</li>
+                    <li>32%</li>
+                    <li>16%</li>
+                    <li>20%</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide3()">Solution ></button>
+                <div id="desc3" class="desc">
+                    <p>Consider, length of rectangle L=100 m and breadth B=100 m so, Area=LxB=10000 m<sup>2</sup><br>   
+                        Length of rectangle is increase by 20%=100+20%=120 m <br>      
+                        breadth of rectangle is increase by 10%=100+10%=110 m 120 <br>
+                        Area of rectangle after increment=LxB=120x110=13200 m<sup>2</sup><br> 
+                        Now, Increase in Area of rectangle=13200-10000=3200<br>
+                        So.....Increase in area (percentage)=3200/(10000/100)=32%</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.4)</div>
+                    <div class="l">The population of the district of solapur is 1,00,000 the rate of increase is 10% per annum. Find the population at the start of 3rd year ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li>1,40,000</li>
+                    <li>1,32,000</li>
+                    <li>2,11,000</li>
+                    <li>1,21,000</li>
+                </ol>
+                <div class="an">Answer :Option D</div>
+                <button class="sol" onclick="showHide4()">Solution ></button>
+                <div id="desc4" class="desc">
+                    <p>The population at the start of 3rd year means Population of 2 years <br>
+                        So, First year population=1,00,000 +10%=1,10,000 <br>
+                        Second year population=1,10,000 +10%=1,21,000 <br>
+                        Therefore at start of third year the population will be 1,21,000</p>
+                </div>
+            </div><hr>
+            <div class="ques">
+                <div class="qline">
+                    <div class="q">Q.5)</div>
+                    <div class="l">Which option is better, a successive discount of 40% and 30% or flat discount of 70% ?</div>
+                </div>
+                <ol type="A" class="op">
+                    <li>successive discount of 40% and 30% is better</li>
+                    <li>flat 70% is Better</li>
+                    <li>Both</li>
+                    <li>None of the above</li>
+                </ol>
+                <div class="an">Answer :Option B</div>
+                <button class="sol" onclick="showHide5()">Solution ></button>
+                <div id="desc5" class="desc">
+                    <p>Let’s Consider the amount is 100 <br>
+                        Case A:  successive discount of 40% and 30% ,it means first 40% discount on amount, after that 30% discount on remaining amount i.e 100-40%=60, <br>
+                        now 60-30%=42….so, final amount after 40% and 30% discount is 42 <br>
+                        Case B: flat 70% discount i.e 100-70%=30…so, final amount after flat 70% is 30 <br>
+                        Therefore Case B is better</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside"></div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
+<!--Q.1 If A = 50 & B = 40 then, A is what % more than B?
+
+Sol: consider 1% of B=40/100=0.4
+A-B=50-40=10
+Now, 10/0.4=25
+Therefore, A is 25 % more than B.
+ 
+Q.2) A = 50 & B = 40, if A is increase by 10 % and B is increase by 30% then what is the total percentage change?
+sol:
+Total(before increasing)=50+40=90  60+20=80
+if A is increase by 10 %=50+((50/100)x10)=55    75
+B is increase by 30%=40+((40/100)x30)=52   24
+Total(after increasing)=55+52=107     99
+Change in total=107-90=17    99-80=19
+Therefore total percentage change=17/(90/100)=18.88%    0.8*19=15.2
+
+Q.3) If length of rectangle is increase by 20% and breadth is increase by 10% then what is percentage the increase in area of rectangle?
+Sol:
+Consider, length of rectangle L=100 m and breadth B=100 m    
+Length of rectangle is increase by 20%=100+20%=120 m  142    110        
+breadth of rectangle is increase by 10%=100+10%=110 m 120    105    
+Now, Increase in Area of rectangle=LxB=120x110=13200 m2   3200/(10000/100)=32%    11550  1150/(10000/100)=11.5%
+
+
+Q.4) The population of the district of solapur is 1,00,000 the rate of increase is 10% per annum. Find the population at the start of 3rd year?
+Sol:
+The population at the start of 3rd year means Population of 2 years
+So, First year population=1,00,000 +10%=1,10,000   200000+15%   230000
+Second year population=1,10,000 +10%=1,21,000
+Therefore at start of third year the population will be 1,21,000   233450
+
+Q. 5) Which option is better, a successive discount of 40% and 30% or flat discount of 70%
+sol:
+Let’s Consider the amount is 100
+Case A:  successive discount of 40% and 30% ,it means first 40% discount on amount, after that 30% discount on remaining amount i.e 100-40%=60,   80
+now 60-30%=42….so, final amount after 40% and 30% discount is 42  72
+Case B: flat 70% discount i.e 100-70%=30…so, final amount after flat 70% is 30   70
+Therefore Case B is better--> 

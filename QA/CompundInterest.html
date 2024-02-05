@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompoundInterest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style>
+            body{
+            margin: auto;
+        }
+        #parent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #side{
+            width: 120px;
+            height: 583px;
+            background: linear-gradient(to left top, rgb(0, 132, 255),rgb(23, 138, 151));
+        }
+        #topLogo{
+            width: 100px;
+            height: 76px;
+            margin-left: 10px;
+        }
+        .box{
+            height: 35px;
+            width: 110px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 1px solid rgb(151, 217, 250);
+            font-size: 10px;
+            margin: 8px 0px 0px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(227, 244, 253);
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box:hover{
+           background: linear-gradient(to top right,rgb(0, 132, 255),rgb(60, 187, 212));
+           transform: scale(1.1); 
+        }
+        #main{
+            width: 1092px;
+            height: 585px;
+        }
+        #heading{
+            width: 1050px;
+            height: 50px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-bottom: 5px;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 40px;
+            color: rgb(53, 17, 112);
+            background: linear-gradient(to left top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        #center{
+            width: 1092px;
+            height: 520px;
+            background: linear-gradient(to left,rgb(250, 250, 250),white);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #left{
+            width: 545px;
+            height: 518px;
+        }
+        #right{
+            width: 542px;
+            height: 518px;
+        }
+        #concept{
+            width: 480px;
+            height: 420px;
+            border: 1px solid rgb(237, 233, 233);
+            border-radius: 1px;
+            margin-left: 40px;
+            margin-top: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            color: rgb(28, 8, 63);
+            box-shadow: 0px 0px 5px 2px rgb(246, 241, 241);  
+        }
+        #IF{
+            color: rgb(53, 17, 112);
+            font-weight: 700;
+            border-bottom: 1px dotted rgb(53, 17, 112);
+            width: 395px;
+        }
+        li{
+            border: 1px solid rgb(221, 232, 238);
+            border-radius: 5px;
+            margin-top: 5px;
+            margin-right: 7px;
+            margin-left: -15px;
+            background-color: rgb(239, 244, 247);   
+        }
+        #buttonscontainer{
+            width: 500px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 5px;
+            margin-left: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            width: 230px;
+            height: 40px;
+            border: 1px solid pink;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right top, rgb(5, 115, 218),rgb(38, 203, 222));
+            border-radius: 3px;
+            color: white;
+            /*box-shadow: 1px 1px 4px rgb(157, 172, 165);*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button:hover{
+            background: linear-gradient(to right top, rgb(218, 136, 5),rgb(222, 219, 38));
+        }
+        i{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #illustration{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="side">
+            <div id="topLogo"><img src="./age_logo-removebg-preview (1).png" alt="" width="90px" height="75px"></div>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Average.html"><div class="box">Average</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Percentage.html"><div class="box">Percentage</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Profit&Loss.html"><div class="box">Profit & Loss</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Partnership.html"><div class="box">Partnership</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Ratio&Proportion.html"><div class="box">Ratio & Proportion</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleMaths.html"><div class="box">Simple Maths</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Time&Work.html"><div class="box">Time & Work</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TimeDistanceSpeed.html"><div class="box">Time-Distance-Speed</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/TrainProblem.html"><div class="box">Train Problem</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/SimpleInterest.html"><div class="box">Simple Interest</div></a>
+            <a href="http://127.0.0.1:5500/CSS/Project/QA/Age.html"><div class="box">Ages</div></a>
+        </div>
+        <div id="main">
+            <div id="heading">Compound Interest</div>
+            <div id="center"> 
+                <div id="left">
+                    <div id="concept">
+                       <p>Compound Interest is the interest calculated on the cumulative amount, rather than being calculated on the principal amount only.</p>
+                       <p id="IF">Important Formulas on "Problems on Compound Interest":</p>
+                       <ul>
+                        <li>Amount, A = P [1 + (R / 100)]<sup>T</sup> <br>where P is the principal<br>R is the rate of interest per unit time period <br>T is the time period <br>Compound Interest, CI = Amount – Principal</li>
+                        <li>If interest is compounded daily, the rate of interest = R / 365 <br>A = P [ 1 + ( {R / 365} / 100 ) ]<sup>T</sup><br>For example, if we have to calculate the interest for 1 year, then T = 365. For 2 years, T = 730.</li>
+                        <li>If interest is compounded monthly, the rate of interest = R / 12 <br>A = P [ 1 + ( {R / 12} / 100 ) ]<sup>T</sup><br>For example, if we have to calculate the interest for 1 year, then T = 12. For 2 years, T = 24</li>
+                        <li>If interest is compounded half-yearly, rate of interest = R / 2 <br>A = P [ 1 + ( {R / 2} / 100 ) ]<sup>T</sup><br>For example, if we have to calculate the interest for 1 year, then T = 2. For 2 years, T = 4</li>
+                       </ul> 
+                    </div>
+                    <div id="buttonscontainer">
+                        <a href=""><div class="button">Practice Questions<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                        <a href=""><div class="button">Mock Test<i class="fa-solid fa-circle-arrow-right"></i></div></a>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="illustration"><img src="./SiCi.jpg" alt="" width="540px" height="516px"></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+
+
